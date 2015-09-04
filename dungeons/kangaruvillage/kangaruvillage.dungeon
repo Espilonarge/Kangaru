@@ -1,4 +1,4 @@
-	
+  
 
     {
       "metadata" : {
@@ -8,8 +8,8 @@
         "anchor" : [ "villagecenter1" ],
         "maxRadius" : 1500,
         "maxParts" : 100,
-		"protected" : true
-		
+    "protected" : true
+    
             },
            
       "tiles" : [
@@ -18,14 +18,14 @@
           "comment" : "magic pinkppp, a no-op value"
         },
         {
-			"value" : [0, 0, 0, 255],
-			"rules" : [ [ "worldGenMustContainAirBackground" ], [ "allowOverdrawing" ] ],
-			"brush" : [ [ "clear" ] ]
+      "value" : [0, 0, 0, 255],
+      "rules" : [ [ "worldGenMustContainAirBackground" ], [ "allowOverdrawing" ] ],
+      "brush" : [ [ "clear" ] ]
         },
         {
-			"value" : [255, 255, 255, 255],
-			"rules" : [ [ "worldGenMustContainSolidBackground" ], [ "allowOverdrawing" ] ],
-			"brush" : [ [ "surface" ] ]
+      "value" : [255, 255, 255, 255],
+      "rules" : [ [ "worldGenMustContainSolidBackground" ], [ "allowOverdrawing" ] ],
+      "brush" : [ [ "surface" ] ]
         },
         {
           "value" : [255, 255, 0, 255],
@@ -632,12 +632,12 @@
           "comment" : "fluorescentlight",
           "brush" : [ [ "clear" ], [ "object", "fluorescentlight" ] ]
         },
-		
-		    {
-			"value" : [255, 217, 26, 255],
-			"comment" : "kangarustreetlamp facing left",
-			"brush" : [ [ "clear" ], [ "object", "kangarustreetlamp", { "direction" : "left" } ] ]
-		},
+    
+        {
+      "value" : [255, 217, 26, 255],
+      "comment" : "kangarustreetlamp facing left",
+      "brush" : [ [ "clear" ], [ "object", "kangarustreetlamp", { "direction" : "left" } ] ]
+    },
      
         {
           "value" : [255, 47, 47, 255],
@@ -650,48 +650,48 @@
           "comment" : "Josie's Diner Sign",
           "brush" : [ [ "clear" ], [ "object", "josiesdinersign" ] ]
         },
-		
-		{
-			"value" : [64, 255, 128, 255],
-			"comment" : "apexcounter2 facing left",
-			"brush" : [ [ "clear" ], [ "object", "apexcounter2", { "direction" : "left", "parameters" : { "treasurePools" : [ "apexTownLore" ] } } ] ]
-		},
-		
-		{
-		"value" : [90, 241, 143, 255],
-		"comment" : "apexlocker facing left",
-		"brush" : [ [ "clear" ], [ "object", "apexlocker", { "direction" : "left" } ] ]
-		},
-		
-		{
-		"value" : [80, 217, 128, 255],
-		"comment" : "apexlocker facing right",
-		"brush" : [ [ "clear" ], [ "object", "apexlocker", { "direction" : "right" } ] ]
-		},
+    
+    {
+      "value" : [64, 255, 128, 255],
+      "comment" : "apexcounter2 facing left",
+      "brush" : [ [ "clear" ], [ "object", "apexcounter2", { "direction" : "left", "parameters" : { "treasurePools" : [ "apexTownLore" ] } } ] ]
+    },
+    
+    {
+    "value" : [90, 241, 143, 255],
+    "comment" : "apexlocker facing left",
+    "brush" : [ [ "clear" ], [ "object", "apexlocker", { "direction" : "left" } ] ]
+    },
+    
+    {
+    "value" : [80, 217, 128, 255],
+    "comment" : "apexlocker facing right",
+    "brush" : [ [ "clear" ], [ "object", "apexlocker", { "direction" : "right" } ] ]
+    },
 
-		{
-		"value" : [255, 143, 64, 255],
-		"comment" : "apexcoolbookcase facing left",
-		"brush" : [ [ "clear" ], [ "object", "apexcoolbookcase", { "direction" : "left" } ] ]
-		},
-		
-		{
-		"value" : [229, 129, 57, 255],
-		"comment" : "apexcoolbookcase facing right",
-		"brush" : [ [ "clear" ], [ "object", "apexcoolbookcase", { "direction" : "right" } ] ]
-		},	
+    {
+    "value" : [255, 143, 64, 255],
+    "comment" : "apexcoolbookcase facing left",
+    "brush" : [ [ "clear" ], [ "object", "apexcoolbookcase", { "direction" : "left" } ] ]
+    },
+    
+    {
+    "value" : [229, 129, 57, 255],
+    "comment" : "apexcoolbookcase facing right",
+    "brush" : [ [ "clear" ], [ "object", "apexcoolbookcase", { "direction" : "right" } ] ]
+    },  
 
-		{
-		"value" : [206, 32, 119, 255],
-		"comment" : "apexmedsign",
-		"brush" : [ [ "clear" ], [ "object", "apexmedsign" ] ]
-		},		
+    {
+    "value" : [206, 32, 119, 255],
+    "comment" : "apexmedsign",
+    "brush" : [ [ "clear" ], [ "object", "apexmedsign" ] ]
+    },    
 
-		{
-			"value" : [57, 229, 115, 255],
-			"comment" : "apexcounter2 facing right",
-			"brush" : [ [ "clear" ], [ "object", "apexcounter2", { "direction" : "right", "parameters" : { "treasurePools" : [ "apexTownLore" ] } } ] ]
-		},
+    {
+      "value" : [57, 229, 115, 255],
+      "comment" : "apexcounter2 facing right",
+      "brush" : [ [ "clear" ], [ "object", "apexcounter2", { "direction" : "right", "parameters" : { "treasurePools" : [ "apexTownLore" ] } } ] ]
+    },
      
         {
           "value" : [255, 0, 0, 255],
@@ -1962,7 +1962,7 @@
                     "noticePlayersRadius" : 20.0,
                     "merchant" : {
                       "storeRadius" : 2,
-                      "categories" : [ "kangaruingredients" ],
+                      "categories" : { "default" : [ "kangaruingredients" ] },
                       "priceVarianceRange" : [0.8, 1.2],
                       "numItems" : 6
                     },
@@ -1988,7 +1988,7 @@
                     "noticePlayersRadius" : 20.0,
                     "merchant" : {
                       "storeRadius" : 2,
-                      "categories" : [ "chefmerchant" ],
+                      "categories" : { "default" : [ "chefmerchant" ] },
                       "priceVarianceRange" : [0.8, 1.2],
                       "numItems" : 15
                     },
@@ -2014,7 +2014,7 @@
                     "noticePlayersRadius" : 20.0,
                     "merchant" : {
                       "storeRadius" : 2,
-                      "categories" : [ "randomguns", "randomswords" ],
+                      "categories" : { "default" : [ "randomguns", "randomswords" ] },
                       "priceVarianceRange" : [0.8, 1.2],
                       "numItems" : 15
                     },
@@ -2040,7 +2040,7 @@
                     "noticePlayersRadius" : 20.0,
                     "merchant" : {
                       "storeRadius" : 2,
-                      "categories" : [ "kangaruclothes" ],
+                      "categories" : { "default" : [ "kangaruclothes" ] },
                       "priceVarianceRange" : [0.8, 1.2],
                       "numItems" : 20
                     },
@@ -2135,7 +2135,7 @@
         {
           "name" : "1a",
           "rules" : [
-			[ "maxSpawnCount", [1] ],
+      [ "maxSpawnCount", [1] ],
             [ "doNotConnectToPart", [ "villagecenter1", "1a", "1b", "2a", "2b", "basement", "5", "7a", "7b", "8", "9", "11" ] ],
             [ "doNotCombineWith", [ "1a", "1b" ] ]
           ],
@@ -2144,7 +2144,7 @@
         {
           "name" : "1b",
           "rules" : [
-			[ "maxSpawnCount", [1] ],
+      [ "maxSpawnCount", [1] ],
             [ "doNotConnectToPart", [ "villagecenter1", "1a", "1b", "2a", "2b", "basement", "5", "7a", "7b", "8", "9", "11" ] ],
             [ "doNotCombineWith", [ "1a", "1b" ] ]
           ],
@@ -2153,7 +2153,7 @@
         {
           "name" : "2a",
           "rules" : [
-			[ "maxSpawnCount", [1] ],
+      [ "maxSpawnCount", [1] ],
             [ "doNotConnectToPart", [ "villagecenter1", "1a", "1b", "2a", "2b", "basement", "5", "7a", "7b", "8", "9", "11" ] ],
             [ "doNotCombineWith", [ "2a", "2b" ] ]
           ],
@@ -2162,7 +2162,7 @@
         {
           "name" : "2b",
           "rules" : [
-			[ "maxSpawnCount", [1] ],
+      [ "maxSpawnCount", [1] ],
             [ "doNotConnectToPart", [ "villagecenter1", "1a", "1b", "2a", "2b", "basement", "5", "7a", "7b", "8", "9", "11" ] ],
             [ "doNotCombineWith", [ "2a", "2b" ] ]
           ],
@@ -2259,7 +2259,7 @@
         {
           "name" : "7a",
           "rules" : [
-		  [ "maxSpawnCount", [1] ],
+      [ "maxSpawnCount", [1] ],
             [ "doNotConnectToPart", [ "villagecenter1", "1a", "1b", "2a", "2b", "basement", "5", "7a", "7b", "8", "9", "11" ] ],
             [ "doNotCombineWith", [ "7a", "7b" ] ]
           ],
@@ -2268,16 +2268,16 @@
         {
           "name" : "7b",
           "rules" : [
-			[ "maxSpawnCount", [1] ],
+      [ "maxSpawnCount", [1] ],
             [ "doNotConnectToPart", [ "villagecenter1", "1a", "1b", "2a", "2b", "basement", "5", "7a", "7b", "8", "9", "11" ] ],
             [ "doNotCombineWith", [ "7a", "7b" ] ]
           ],
           "def" : [ "image", [ "7.png", "7b-objects.png" ] ]
         },
-		{
+    {
           "name" : "8",
           "rules" : [
-			[ "maxSpawnCount", [1] ],
+      [ "maxSpawnCount", [1] ],
             [ "doNotConnectToPart", [ "villagecenter1", "1a", "1b", "2a", "2b", "basement", "5", "7a", "7b", "8", "9", "11" ] ]
           ],
           "def" : [ "image", [ "8.png", "8-objects.png" ] ]
@@ -2297,11 +2297,11 @@
             [ "doNotConnectToPart", [ "1a", "1b", "2a", "2b", "basement", "5", "7a", "7b", "8", "9", "11" ] ]
           ],
           "def" : [ "image", [ "11.png", "11-objects.png" ] ]
-        }, 			
+        },      
         {
           "name" : "villageentryleft",
           "rules" : [
-			[ "ignorePartMaximumRule" ]
+      [ "ignorePartMaximumRule" ]
           ],
           "def" : [ "image", [ "villageentryleft.png", "villageentryleft-objects.png" ] ],
           "chance" : 0
@@ -2309,7 +2309,7 @@
         {
           "name" : "villageentryright",
           "rules" : [
-			[ "ignorePartMaximumRule" ]
+      [ "ignorePartMaximumRule" ]
           ],
           "def" : [ "image", [ "villageentryright.png", "villageentryright-objects.png" ] ],
           "chance" : 0
