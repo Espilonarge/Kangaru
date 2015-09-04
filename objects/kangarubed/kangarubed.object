@@ -1,0 +1,41 @@
+{
+  "objectName" : "kangarubed",
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 1500,
+  "description" : "Has good ventilation but requires good balance.",
+  "shortdescription" : "Hammock",
+  "race" : "kangaru",
+
+  "apexDescription" : "Makes us think of time when sleeping high in trees and vines.",
+  "avianDescription" : "Reminds us of better times where we lived amongst the sky.",
+  "floranDescription" : "Sssuch ssilly thing. Where'ss nice warm fur?",
+  "glitchDescription" : "Concern. May not support our frame or weight.",
+  "humanDescription" : "Pretty basic 'hang anywhere' bed. Good for sleeping during hot days.",
+  "hylotlDescription" : "Silly land creatures, they use their own nets as beds.",
+
+  "objectType" : "loungeable",
+  "interactAction" : "sitdown",
+  "sitFlipDirection" : true,
+  "sitPosition" : [-2, 11],
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitCoverImage" : "/objects/kangarubed/kangarubedcover.png",
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "regeneration1"
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "inventoryIcon" : "kangarubedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "kangarubed.png:<color>", 
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

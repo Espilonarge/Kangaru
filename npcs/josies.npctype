@@ -1,0 +1,80 @@
+{
+  "type" : "josies",
+  "baseType" : "merchant",
+
+  "scriptConfig" : {
+    "merchant" : {
+      "waitTime" : 10,
+      "storeRadius" : -1,
+      "categories" : {
+        "default" : [ "chefmerchant" ],
+        "human" : ["chefmerchant" ],
+        "apex" : ["chefmerchant" ],
+        "hylotl" : ["chefmerchant" ],
+        "floran" : ["chefmerchant" ],
+        "glitch" : ["chefmerchant" ],
+        "avian" : ["chefmerchant" ],
+        "novakid" : ["chefmerchant" ],
+		"kangaru" : ["chefmerchant" ]
+      },
+      "buyFactorRange" : [ 1.0, 1.0 ],
+      "sellFactorRange" : [ 0.2, 0.2 ],
+      "numItems" : 7,
+      "paneLayoutOverride" : {
+        "windowtitle" : {
+          "title" : "  Josie's Waitron",
+          "subtitle" : "  Wonderful pit-stop food!"
+        }
+      }
+    },
+
+    "dialog" : {
+      "merchant" : {
+        "start" : {
+          "default" : {
+            "default" : [
+                "Welcome to Josie's! What can I get you?",
+				"Welcome to Josie's! Please take a seat!",
+				"Welcome to Josie's where we make you feel cosies!",
+				"Hi there, how may I take your order?",
+				"Hi and welcome to Josie's. May I take your order, please?",
+				"Hi and welcome to Josie's. What would you like?",
+				"Welcome to Josie's! What will you be ordering?",
+				"Welcome to Josie's! How may I take your order?",
+				"Welcome to Josie's! What'll it be?"
+            ]
+          }
+        },
+        "end" : {
+          "default" : {
+            "default" : [
+				"Thanks and enjoy your meal!",
+				"Thanks and have a good day!",
+				"Would you like fries with that?",
+				"Thank you and you have a lovely day!",
+				"What, no tip?",
+				"Hope you enjoy your meal!",
+				"Lovely, anything else I can get you?",
+				"Wonderful, enjoy your meal 'ate!",
+				"Don't forget to tell your friends about Josie's!",
+				"Thanks for ordering.",
+				"If you need anything else, don't hesitate to ask!",
+				"Thanks for ordering at Josie's!"
+            ]
+          }
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "chest" : [ "chefchest" ],
+            "legs" : [ "cheflegs" ]
+          }
+        ] ]
+    ]
+  }
+}

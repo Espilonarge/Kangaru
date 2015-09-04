@@ -1,0 +1,38 @@
+{
+  "objectName" : "josiesdinerstool",
+  "rarity" : "Common",
+  "description" : "A stool with a cushion that swivels.",
+  "shortdescription" : "Josie's Diner Stool",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 300,
+
+  "apexDescription" : "You spin me right round, monkey!",
+  "avianDescription" : "Best not to spin around for too long or I will know how my ancestors feel when feeding their young.",
+  "floranDescription" : "Ssspiny thing go wheee!",
+  "glitchDescription" : "Concern. Best not to spin too fast or will go flying.",
+  "humanDescription" : "Best not spin around too much, I might get too dizzy.",
+  "hylotlDescription" : "I could watch everyone with but a simple turn.",
+  "kangaruDescription" : "If I spun around, I would be like a boomerang!",
+
+  "inventoryIcon" : "josiesdinerstoolicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "josiesdinerstool.png:<color>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "interactAction" : "sitdown",
+  "sitFlipDirection" : false,
+  "sitPosition" : [-4, 20]
+
+}

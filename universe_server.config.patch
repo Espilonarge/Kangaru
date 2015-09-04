@@ -1,0 +1,16 @@
+[
+	{ "op" : "add",
+		"path" : "/speciesShips/kangaru",
+		"value" : [
+			"/ships/kangaru/kangarut0.structure",
+			"/ships/kangaru/kangarut1.structure",
+			"/ships/kangaru/kangarut2.structure",
+			"/ships/kangaru/kangarut3.structure",
+			"/ships/kangaru/kangarut4.structure",
+			"/ships/kangaru/kangarut5.structure",
+			"/ships/kangaru/kangarut6.structure",
+			"/ships/kangaru/kangarut7.structure",
+			"/ships/kangaru/kangarut8.structure"
+		]
+	}
+]

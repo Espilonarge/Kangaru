@@ -1,0 +1,40 @@
+{
+  "objectName" : "prefabbookcabinet",
+  "rarity" : "Common",
+  "objectType" : "container",
+  "category" : "storage",
+  "price" : 500,
+
+  "description" : "A pre-built wall cabinet filled with books",
+  "shortdescription" : "Prefab Wall Cabinet",
+  "race" : "kangaru",
+
+  "apexDescription" : "A pre-made book cabinet. Does it have anything good to read?",
+  "avianDescription" : "Might be something good to read in this cabinet.",
+  "floranDescription" : "Ssimple book sstorage.",
+  "glitchDescription" : "Observation. A pre-constructed wall unit made for books.",
+  "humanDescription" : "A simple cabinet full of books.",
+  "hylotlDescription" : "A simple wall-mounted bookshelf.",
+  "kangaruDescription" : "A simple bookshelf mounted to the wall.",
+
+  "inventoryIcon" : "prefabbookcabineticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "prefabbookcabinet.png:<color>",
+      "imagePosition" : [-8, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+      "collision" : "platform"
+
+    }
+  ],
+  "openSounds" : [ "/sfx/objects/florancrate_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/florancrate_close.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+}

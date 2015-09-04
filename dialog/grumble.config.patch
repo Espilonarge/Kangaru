@@ -1,0 +1,123 @@
+[
+	{
+		"op": "add",
+		"path": "/tagCriteria/kangaru",
+		"value": {
+			"default": [
+				"I don't feel comfortable here..",
+				"Did someone take something? Could have sworn..",
+				"Someone's been digging through my stuff..",
+				"I'm feel a little out of place here.. or something isn't where it should be.",
+				"Great... this isn't how things should be..",
+				"I hope whoever did this puts things back the way they were before.",
+				"... where did I... no... it's missing... or..",
+				"Someone's messing with my house... not a happy camper...",
+				"This doesn't feel right at all. Someone's messing with my stuff!",
+				"Could have sworn... my stuff! Where is it!?",
+				"Ok, whoever took it... better return it!"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/enclosedArea/kangaru",
+		"value": {
+			"default": [
+				"Could need some repairs around here.",
+				"There's a hole in my house, dear landlord, dear landlord...",
+				"There's a draft in here that... needs to be fixed.",
+				"I'd sleep better at night if there wasn't a hole causing a draft.",
+				"This place needs to be patched up before dropbears can get in!",
+				"If possible, could you go about making repairs? It's getting cold in here.",
+				"If this place gets any worse, it'll end up unbearable... with dropbears!",
+				"That hole wasn't there before. Could you fix it up please 'ate?",
+				"Did that hole just get bigger? I hope not... maybe you could help fix it?",
+				"I'd rather not have to find a new place to live. Could you help fix it?",
+				"Maybe you could help repair this place? I know that hole wasn't there before I moved in.",
+				"Please, I pay my rent, would you mind fixing up the problems?"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/otherDeed/kangaru",
+		"value": {
+			"default": [
+				"But I... I thought I found a home for myself..",
+				"But this is my home. Where will I live now?",
+				"This can't be! I signed the lease!",
+				"This must be a mistake. My name is on the lease here!",
+				"I'm sure this is just a misunderstanding on who owns the lease here..",
+				"Wait? I'm evicted?",
+				"W-wait! Please! My home.. this isn't.. fair..",
+				"I hope you're planning to find me a new place.",
+				"I guess this place wasn't for me... but where will I live now?",
+				"Please make sure the new owner of the lease feels comfortable.",
+				"Yep yep. Just give me a moment to grab my stuff...",
+				"I hope there isn't an error in the lease..",
+				"Could have sworn my name was on the lease here. Oh well.."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/severe/kangaru",
+		"value": {
+			"default": [
+				"I asked nicely and the least that could have been done was some simple repairs.",
+				"Why hasn't the landlord helped with these problems?",
+				"T-This is not right... not right at all!",
+				"I don't.. feel comfortable right about now..",
+				"I thought I found a home but.. this isn't what I asked for.",
+				"Who would want to live here? It's not up to scratch!",
+				"This place feels so runned down, why do I put up with this?",
+				"I was hoping my rent would help afford repairs and a decent home... guess not...",
+				"I dreamed I would find a new home but.. how can I feel welcome?",
+				"The landlord needs to do something otherwise I just...",
+				"Why do I keep putting up with all these problems living here?",
+				"I thought this was my dream home... but this is far from just unacceptable!",
+				"If the landlord doesn't help, I'm leaving.",
+				"The landlord surely must take me for a fool if he doesn't help around here!",
+				"I'm this close to moving...",
+				".. maybe I should plan for my next home..",
+				"I'm not sure I can take living here anymore...",
+				"I feel so violated after what's happened here. Maybe I should move.."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/final/kangaru",
+		"value": {
+			"default": [
+				"Fine. See if you can find another tenant!",
+				"This place just ain't big enough for the both of us!",
+				"Nope, I'm done. Goodbye!",
+				"You've forced my paw, this is goodbye!",
+				"This is just unacceptable! I'm moving!",
+				"I was hoping it didn't come to this but... I'm leaving.",
+				"Things haven't been for the best here so it's time I find somewhere else..",
+				"Here's hoping the next tenant has it better then I did here..",
+				"I didn't come to live here with these... conditions! I'm out of here!",
+				"There's only so much one can take before... well, this! Seeya!",
+				"My dreams must lie elsewhere...",
+				"Things would have been so much better if... no, no more, I'm gone.",
+				"That's it! I'm done! I'm through! I'm out of here!",
+				"A home is suppose to feel like.. well, a home but this is just.. nope, I'm finished. Seeya!",
+				"I can't afford to keep living here like this, I best look elsewhere.",
+				"I need to look elsewhere since this place never felt.. right.",
+				"I felt like I found the perfect place for me.. I guess this wasn't meant to be.",
+				"Time goes on... and so do I. Time to find a new home!",
+				"They say there's a first time for everything.. and the first thing I need is to find a new home!",
+				"Home is where the heart is... well I guess my heart belongs elsewhere!",
+				"There's only so much a kangaru can take before he feels unwelcome. Sadly, this is that point.",
+				"Nope, nuh uh, not taking this anymore... bye!",
+				".. I must go, my planet needs me!",
+				"All I wanted was a home to call my own.. but this just isn't it.",
+				"Houses are suppose to feel safe but.. this just isn't safe enough.",
+				"I-Is that a spider? Nopenopenopenopenopenopenopenopenopenopenopenope..!!!",
+				"You can't possibly make me live here even if the rent was free! I'm outta here!"
+			]
+		}
+	}
+]

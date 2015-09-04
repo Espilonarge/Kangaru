@@ -1,0 +1,30 @@
+{
+  "objectName" : "posterbeware",
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 100,
+  "description" : "Beware.",
+  "shortdescription" : "Beware",
+  "race" : "kangaru",
+  
+  "apexDescription" : "What an angry looking creature.",
+  "avianDescription" : "How can something so cute be so dangerous?",
+  "floranDescription" : "Me find bear, me eatss!",
+  "glitchDescription" : "Humor. I have the right to bear arms too.",
+  "humanDescription" : "I guess these things are really unbearable to deal with.",
+  "hylotlDescription" : "Such vicious creatures these so called dropbears are.",
+  "kangaruDescription" : "Ah-hah! One of our common enemies!",
+  
+  "inventoryIcon" : "posterbewareicon.png",
+  "orientations" : [
+    {
+      "image" : "posterbeware.png",
+      "imagePosition" : [-8, -4],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

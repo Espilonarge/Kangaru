@@ -1,0 +1,40 @@
+{
+  "objectName" : "prefabwallcabinet",
+  "rarity" : "Common",
+  "objectType" : "container",
+  "category" : "storage",
+  "price" : 500,
+
+  "description" : "A pre-built storage cabinet that can be placed on walls",
+  "shortdescription" : "Prefab Wall Cabinet",
+  "race" : "kangaru",
+
+  "apexDescription" : "A pre-made wall cabinet. Basic but stores stuff.",
+  "avianDescription" : "A simple pre-defined cabinet for storage. Nothing fancy.",
+  "floranDescription" : "Ssimple wall sstorage.",
+  "glitchDescription" : "Observation. A pre-constructed wall unit made for storage.",
+  "humanDescription" : "Simple cabinet for storing stuff.",
+  "hylotlDescription" : "A simple mounted cabinet.",
+  "kangaruDescription" : "Easy to assemble and mount on walls. Pretty basic storage.",
+
+  "inventoryIcon" : "prefabwallcabineticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "prefabwallcabinet.png:<color>",
+      "imagePosition" : [-8, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+      "collision" : "platform"
+
+    }
+  ],
+  "openSounds" : [ "/sfx/objects/woodendoor_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/woodendoor_close.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+}

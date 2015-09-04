@@ -1,0 +1,51 @@
+[
+	{
+		"op": "add",
+		"path": "/helpme/kangaru",
+		"value": {
+			"default": [
+			"Bloody 'ell! Stop!",
+			"What'd I do to you!?",
+			"Crazy drungo!",
+			"Bugger me dead!",
+			"Bugger that for a joke!",
+			"Run away! Run awaaayyyy!!!",
+			"You're crazy person!",
+			"Don't get ya knickers in a knot!",
+			"For bucks sake!",
+			"Frigin 'ell!",
+			"Bloody 'ell! Help!!!",
+			"Why!?",
+			"Someone! Anyone! Heeeelllllppp!!!",
+			"OW! OW! OW!",
+			"OOWWW!!!",
+			"What'd I do!?!?"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/helpthem/kangaru",
+		"value": {
+			"default": [
+			"Security! Security! I'm feeling insecure right now!",
+			"Bloody 'ell! Get help!",
+			"I need someone to get the kerwan off my back!",
+			"You can't be serious 'ate! Get this kerwan off me!",
+			"Bloody e'll! You're a kerwan! Security!",
+			"You can't be serious! Someone get this crazy kerwan!"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/safe/kangaru",
+		"value": {
+			"default": [
+				"Hope they didn't follow...",
+				"*Thew!*",
+				"Maybe if I hide here..."
+			]
+		}
+	}
+]

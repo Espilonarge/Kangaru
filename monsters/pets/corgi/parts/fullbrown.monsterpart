@@ -1,0 +1,9 @@
+{
+  "name" : "fullbrown",
+  "category" : "corgi",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "fullbrown.png"
+  }
+}

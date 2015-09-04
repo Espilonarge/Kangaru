@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "climbingrope", "count" : 2 },
+    { "item" : "ironbar", "count" : 4 },
+    { "item" : "fabric", "count" : 20 }
+  ],
+  "output" : { "item" : "kangarubed", "count" : 1 },
+  "groups" : [ "spinningwheel", "objects", "all" ]
+}

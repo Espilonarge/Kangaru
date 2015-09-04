@@ -1,0 +1,448 @@
+{
+	"panels" : [
+		{
+			"drawables" : [ { "image" : "/cinematics/black.png" } ],
+			"keyframes" : [
+				{
+					"timecode" : 0,
+					"zoom" : 500,
+					"alpha" : 1,
+					"position" : [480, 240]
+				}
+			]
+		},
+
+		{
+			"drawables" : [ { "image" : "/cinematics/kangaru/Cine_1_1.png" } ],
+			"keyframes" : [
+				{
+					"alpha" : 0,
+					"position" : [480, 260],
+					"timecode" : 0,
+					"zoom" : 1.5
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 2
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 6
+				},
+				{
+					"alpha" : 0,
+					"timecode" : 8
+				}
+			]
+		},
+
+		{
+			"drawables" : [ { "image" : "/cinematics/kangaru/Cine_2_0.png" } ],
+			"keyframes" : [
+				{
+					"alpha" : 0,
+					"position" : [480, 260],
+					"timecode" : 6,
+					"zoom" : 1.5
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 8
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 12
+				},
+				{
+					"alpha" : 0,
+					"timecode" : 13
+				}
+			]
+		},
+		
+		{
+			"drawables" : [ { "image" : "/cinematics/kangaru/Cine_2_1.png" } ],
+			"keyframes" : [
+				{
+					"alpha" : 0,
+					"position" : [480, 260],
+					"timecode" : 8,
+					"zoom" : 1.5
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 9
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 12
+				},
+				{
+					"alpha" : 0,
+					"timecode" : 13
+				}
+			]
+		},
+		
+		{
+			"drawables" : [ { "image" : "/cinematics/kangaru/Cine_2_2.png" } ],
+			"keyframes" : [
+				{
+					"alpha" : 0,
+					"position" : [480, 260],
+					"timecode" : 10,
+					"zoom" : 1.5
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 11
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 12
+				},
+				{
+					"alpha" : 0,
+					"timecode" : 13
+				}
+			]
+		},	
+
+		{
+			"drawables" : [ { "image" : "/cinematics/kangaru/Cine_3.png" } ],
+			"keyframes" : [
+				{
+					"alpha" : 0,
+					"position" : [440, 260],
+					"timecode" : 12,
+					"zoom" : 1.5
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 13
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 20
+				},
+				{
+					"alpha" : 0,
+					"position" : [480, 260],
+					"timecode" : 24
+				}				
+			]
+		},
+		
+		{
+			"drawables" : [ { "image" : "/cinematics/kangaru/Cine_4_2.png" } ],
+			"keyframes" : [
+				{
+					"alpha" : 0,
+					"position" : [480, 260],
+					"timecode" : 27,
+					"zoom" : 1.5
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 28
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 34
+				},
+				{
+					"alpha" : 0,
+					"timecode" : 36
+				}
+			]
+		},
+		{
+			"drawables" : [ { "image" : "/cinematics/kangaru/Cine_4_3.png" } ],
+			"keyframes" : [
+				{
+					"alpha" : 0,
+					"position" : [480, 260],
+					"timecode" : 29,
+					"zoom" : 1.5
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 30
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 33
+				},
+				{
+					"alpha" : 0,
+					"timecode" : 34
+				}
+			]
+		},
+		{
+			"drawables" : [ { "image" : "/cinematics/kangaru/Cine_4_4.png" } ],
+			"keyframes" : [
+				{
+					"alpha" : 0,
+					"position" : [480, 260],
+					"timecode" : 30,
+					"zoom" : 1.5
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 31
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 33
+				},
+				{
+					"alpha" : 0,
+					"timecode" : 34
+				}
+			]
+		},
+		{
+			"drawables" : [ { "image" : "/cinematics/kangaru/Cine_4_5.png" } ],
+			"keyframes" : [
+				{
+					"alpha" : 0,
+					"position" : [480, 260],
+					"timecode" : 30.5,
+					"zoom" : 1.5
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 31
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 33
+				},
+				{
+					"alpha" : 0,
+					"timecode" : 34
+				}
+			]
+		},
+		{
+			"drawables" : [ { "image" : "/cinematics/kangaru/Cine_4_6.png" } ],
+			"keyframes" : [
+				{
+					"alpha" : 0,
+					"position" : [480, 260],
+					"timecode" : 31,
+					"zoom" : 1.5
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 31.5
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 33
+				},
+				{
+					"alpha" : 0,
+					"timecode" : 34
+				}
+			]
+		},
+		
+		{
+			"drawables" : [ { "image" : "/cinematics/kangaru/Cine_5.png" } ],
+			"keyframes" : [
+				{
+					"alpha" : 0,
+					"position" : [480, 260],
+					"timecode" : 35,
+					"zoom" : 1.5
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 36.5
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 40
+				},
+				{
+					"alpha" : 0,
+					"timecode" : 41
+				}
+			]
+		},
+
+
+		{
+			"drawables" : [ { "image" : "/cinematics/kangaru/Cine_6_1.png" } ],
+			"keyframes" : [
+				{
+					"alpha" : 0,
+					"position" : [482, 260],
+					"timecode" : 41,
+					"zoom" : 1.5
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 42
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 44
+				},
+				{
+					"alpha" : 0,
+					"position" : [478, 260],
+					"timecode" : 47
+				}
+			]
+		},
+		
+		{
+			"drawables" : [ { "image" : "/cinematics/kangaru/Cine_6_2.png" } ],
+			"keyframes" : [
+				{
+					"alpha" : 0,
+					"position" : [470, 260],
+					"timecode" : 40,
+					"zoom" : 1.5
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 41
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 45
+				},
+				{
+					"alpha" : 0,
+					"position" : [480, 260],
+					"timecode" : 48
+				}
+			]
+		},
+		
+		{
+			"drawables" : [ { "image" : "/cinematics/kangaru/Cine_6_3.png" } ],
+			"keyframes" : [
+				{
+					"alpha" : 0,
+					"position" : [475, 260],
+					"timecode" : 40,
+					"zoom" : 1.5
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 41
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 45
+				},
+				{
+					"alpha" : 0,
+					"position" : [495, 260],
+					"timecode" : 48
+				}
+			]
+		},
+
+		{
+			"drawables" : [ { "image" : "/cinematics/kangaru/Cine_1_2.png" } ],
+			"keyframes" : [
+				{
+					"alpha" : 0,
+					"position" : [480, 260],
+					"timecode" : 49,
+					"zoom" : 1.5
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 50
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 54
+				},
+				{
+					"alpha" : 0,
+					"timecode" : 60
+				}
+			]
+		},
+		
+		{
+			"drawables" : [ { "image" : "/cinematics/kangaru/Cine_1_3.png" } ],
+			"keyframes" : [
+				{
+					"alpha" : 0,
+					"position" : [480, 260],
+					"timecode" : 50,
+					"zoom" : 1.5
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 54
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 60
+				},
+				{
+					"alpha" : 0,
+					"timecode" : 65
+				}
+			]
+		},
+
+		{
+			"drawables" : [ { "image" : "/cinematics/kangaru/filter.png:{frame}" } ],
+			"animationFrames" : 3,
+			"keyframes" : [
+				{
+					"alpha" : 0,
+					"frame" : 0,
+					"zoom" : 1.5,
+					"position" : [480, 260],
+					"timecode" : 0
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 1
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 67
+				},
+				{
+					"alpha" : 0,
+					"frame" : 600,
+					"position" : [480, 240],
+					"timecode" : 68
+				}
+			]
+		},
+		
+		{
+			"drawables" : [ { "image" : "/cinematics/kangaru/Cine_3_1.png" } ],
+			"keyframes" : [
+				{
+					"alpha" : 1.5,
+					"position" : [480, 260],
+					"timecode" : 0,
+					"zoom" : 1.5
+				},
+				{
+					"alpha" : 1,
+					"timecode" : 68
+				}				
+			]
+		}
+	],
+
+	"audio" : [
+		{ "timecode" : 0, "resource" : "/music/Kangaru_-_Intro.ogg" }
+]
+}

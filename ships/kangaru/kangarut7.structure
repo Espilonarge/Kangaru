@@ -1,0 +1,23 @@
+{
+  "config" : {
+    "shipUpgrades" : {
+      "capabilities" : ["teleport", "planetTravel", "systemTravel"],
+      "maxFuel" : 1000
+    }
+  },
+
+  "backgroundOverlays" : [
+    {
+      "image" : "kangaruT7.png",
+      "position" : [8.39, 3.875],
+      "fullbright" : true
+    },
+    {
+      "image" : "kangaruT7lit.png",
+      "position" : [8.39, 3.875]
+    }
+  ],
+
+  "blockKey" : "blockKey.config:blockKey",
+  "blockImage" : "kangaruT7blocks.png"
+}

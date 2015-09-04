@@ -1,0 +1,9 @@
+{
+  "name" : "brownpink",
+  "category" : "corgi",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "brownpink.png"
+  }
+}

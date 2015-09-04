@@ -1,0 +1,9 @@
+{
+  "name" : "fullpink",
+  "category" : "corgi",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "fullpink.png"
+  }
+}

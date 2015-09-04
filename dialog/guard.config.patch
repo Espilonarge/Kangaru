@@ -1,0 +1,129 @@
+[
+	{
+		"op": "add",
+		"path": "/hail/kangaru",
+		"value": {
+			"default": [
+				"G'day 'ate!",
+				"Nothing to report, sir!",
+				"Everything looks in order 'ate.",
+				"All clear 'ate.",
+				"Everything is secure 'ate.",
+				"Nothing happening at the moment.",
+				"Can't talk, on guard duty.",
+				"I'll be glad when this shift is over.",
+				"I could really go for a drink right about now..",
+				"Where's the guy that's suppose to take my shift?",
+				"Can't let me guard down, who knows what's lurking around."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/swordwarning1/kangaru",
+		"value": {
+			"default": [
+				"That's not a knife...",
+				"I've seen bigger 'ate.",			
+				"You what 'ate?",
+				"Best put that away 'ate.",
+				"I hope that's for cooking and not killing 'ate.",
+				".. my knifes bigger.",
+				"Are you done toying with that? Put it away, now 'ate!",
+				"You're not doing yourself any favors having that out.."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/gunwarning1/kangaru",
+		"value": {
+			"default": [
+				"Unless you want to be marked as an outlaw, best put that away",
+				"Are you really sure that's wise to have that out?",
+				"I can't let you have that out in the open, put it away 'ate.",
+				"Stash'et or get out!",
+				"Please don't be another stupid bandit.. put it away 'ate.",
+				"Do you think that intimidates me? Mines bigger!"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/swordwarning2/kangaru",
+		"value": {
+			"default": [
+				"My blade was sharpened this morning. Make your move..",
+				"YOU WHAT 'ATE?!",
+				"Last warning 'ate!"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/gunwarning2/kangaru",
+		"value": {
+			"default": [
+				"You're kidding.. I'm not! Last warning!",
+				"I'm not messing around. Put the bloody thing away 'ate!",
+				"Last warning 'ate!"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/swordwarning3/kangaru",
+		"value": {
+			"default": [
+				"You are sorely tempting me, friend.",
+				"Your weapon. Put it the f°ck away.",
+				"Final warning - drop the weapon."
+			],
+			"kangaru": [
+				"You are sorely tempting me, Hunter.",
+				"Your weapon, Hunter. Put it away. Now.",
+				"Final warning - drop the weapon."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/gunwarning3/kangaru",
+		"value": {
+			"default": [
+				"If you don't holster your gun, I'll have to get rough.",
+				"I'm coming for you if you don't comply!",
+				"Don't make me come and take the gun and your LIFE!"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/weaponSheathed/kangaru",
+		"value": {
+			"default": [
+				"Thanks.",
+				"Thanks 'ate.",
+				"All's good.",
+				"You're good 'ate",
+				"Lets not try that again 'ate."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/comeBack/kangaru",
+		"value": {
+			"default": [
+				"Bloody kanwer!",
+				"Oh you just had to go and do something stupid you bloody kanwer!",
+				"Too little, too late!",
+				"You want a lawyer? TOO LATE!",
+				"You're going to wish you had a lawyer right now!",
+				"Get back here you bloody little kanwer!",
+				"YOU WHAT 'ATE!?!?",
+				"SAVE YOUR EXCUSES! YOU WERE WARNED!"
+			]
+		}
+	}
+]

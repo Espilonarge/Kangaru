@@ -1,0 +1,37 @@
+{
+  "objectName" : "prefabcorner",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 250,
+  "description" : "A metal beam that supports bridges.",
+  "shortdescription" : "Bridge Support Beam",
+  "race" : "human",
+
+  "apexDescription" : "A support beam.",
+  "avianDescription" : "A metal support.",
+  "floranDescription" : "Sssupport.",
+  "glitchDescription" : "Undisguised apathy. A support beam.",
+  "humanDescription" : "A metal beam.",
+  "hylotlDescription" : "Metal support beam.",
+
+  "inventoryIcon" : "prefabcornericon.png",
+  "orientations" : [
+    {
+      "image" : "prefabcornerleft.png:<color>",
+
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "top" ]
+    },
+
+    {
+      "image" : "prefabcornerright.png:<color>",
+
+      "imagePosition" : [-24, 0],
+
+      "spaceScan" : 0.01,
+      "anchors" : [ "right", "top" ]
+    }
+  ]
+}

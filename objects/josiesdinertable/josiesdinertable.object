@@ -1,0 +1,30 @@
+{
+  "objectName" : "josiesdinertable",
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 500,
+  "description" : "That sure is a cool table.",
+  "shortdescription" : "Josie's Diner Table",
+  "race" : "kangaru",
+  
+  "apexDescription" : "A basic diner table.",
+  "avianDescription" : "A board embedded in the wall to eat off.",
+  "floranDescription" : "A table for eatingsss",
+  "glitchDescription" : "Humor. It's just very board without people.",
+  "humanDescription" : "A nice diner table to eat from.",
+  "hylotlDescription" : "A table built in to the wall for eating.",
+  "kangaruDescription" : "A diner table that's surprisingly sturdy with only the wall for support.",
+  
+  "inventoryIcon" : "josiesdinertableicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "josiesdinertable.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

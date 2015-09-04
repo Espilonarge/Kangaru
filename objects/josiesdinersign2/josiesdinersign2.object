@@ -1,0 +1,37 @@
+{
+  "objectName" : "josiesdinersign2",
+  "rarity" : "Common",
+  "price" : 200,
+  "description" : "Josie's Neon Burger Sign. When at Josie's, you'll feel cosies!",
+  "shortdescription" : "Josie's Neon Burger Sign",
+  "race" : "kangaru",
+  "category" : "light",
+  "lightColor" : [255, 200, 150],
+  "flickerDistance" : 0.7,
+  "flickerStrength" : 0.3,
+  "flickerTiming" : 2.0,
+
+  "apexDescription" : "Do they use organic meat?",
+  "avianDescription" : "So many flavors, so little thyme.",
+  "floranDescription" : "Green sstuff not Floran. Isss good.",
+  "glitchDescription" : "Concern. Can Glitch get fat?",
+  "humanDescription" : "I think I prefer this over the special, who knows what's in that.",
+  "hylotlDescription" : "Not exactly the most healthiest choice around.",
+  "kangaruDescription" : "Nothing says tasty like fast food that's made hasty!",
+
+  "inventoryIcon" : "josiesdinersign2icon.png",
+  "orientations" : [
+    {
+      "image" : "josiesdinersign2.png:<color>.<frame>",
+      "imagePosition" : [-2, 0],
+      "frames" : 2,
+      "animationCycle" : 0.1,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/fluorescent_light_quiet.wav",
+  "soundEffectRadius" : 20
+
+}

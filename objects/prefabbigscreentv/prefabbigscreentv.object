@@ -1,0 +1,46 @@
+{
+  "objectName" : "prefabbigscreentv",
+  "rarity" : "Rare",
+  "lightColor" : [89, 89, 89],
+  "flickerDistance" : 0.2,
+  "flickerStrength" : 0.1,
+  "flickerTiming" : 8,  
+  "category" : "decorative",
+  "price" : 5000,
+  "description" : "It's a huge screen with huge definition!",
+  "shortdescription" : "Big Screen TV",
+  "race" : "kangaru",
+
+  "apexDescription" : "Oh wow, this TV is almost as big as me!",
+  "avianDescription" : "They sure do get some really interesting stuff on the airwaves.",
+  "floranDescription" : "Ssoo big!",
+  "glitchDescription" : "Jest. I've seen bigger.",
+  "humanDescription" : "How did they manage to fit the TV through the door?",
+  "hylotlDescription" : "The quality of this TV is most impressive.",
+  "kangaruDescription" : "Movie nights have never been this good till now!",
+
+  "inventoryIcon" : "prefabbigscreentvicon.png",
+  "orientations" : [
+    {
+      "image" : "prefabbigscreentvleft.png:<color>.<frame>",
+	  "direction" : "left",
+      "imagePosition" : [-24, 0],
+      "frames" : 49,
+      "animationCycle" : 120,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "lightPosition" : [-24, 0]
+    },
+	{
+      "image" : "prefabbigscreentvright.png:<color>.<frame>",
+	  "direction" : "right",
+      "imagePosition" : [-24, 0],
+      "frames" : 49,
+      "animationCycle" : 120,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "lightPosition" : [-24, 0]
+    }
+  ],
+  "soundEffect" : "/sfx/objects/tv.ogg"
+}

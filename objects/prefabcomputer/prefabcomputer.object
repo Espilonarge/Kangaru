@@ -1,0 +1,50 @@
+{
+  "objectName" : "prefabcomputer",
+  "rarity" : "Rare",
+  "lightColor" : [89, 89, 89],
+  "flickerDistance" : 0.2,
+  "flickerStrength" : 0.1,
+  "flickerTiming" : 8,  
+  "category" : "decorative",
+  "price" : 1600,
+  "description" : "Computer with a simple design but comes with a dedicated video card installed.",
+  "shortdescription" : "Prefab Computer",
+  "race" : "kangaru",
+
+  "apexDescription" : "A great computer. Such sophisticated graphics.",
+  "avianDescription" : "The display is rather vibrant and those graphics are just... wow.",
+  "floranDescription" : "Sssuper computer with ssuper graphicsss!",
+  "glitchDescription" : "Observation. The graphic acceleration chip is impressive.",
+  "humanDescription" : "Any key? Where's the any key!?",
+  "hylotlDescription" : "Is that a fish screensaver?",
+  "kangaruDescription" : "I wonder if it can play Starfound...",
+
+  "inventoryIcon" : "prefabcomputericon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "prefabcomputer.png:<color>.<frame>", "unlit" : true }, { "image" : "prefabcomputerlit.png:<color>.<frame>" } ],
+      "flipImages" : true,
+      "imagePosition" : [-8, 0],
+      "frames" : 8,
+      "animationCycle" : 240,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "left",
+      "lightPosition" : [-3, -3]
+    },
+    {
+      "imageLayers" : [ { "image" : "prefabcomputer.png:<color>.<frame>", "unlit" : true }, { "image" : "prefabcomputerlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-8, 0],
+      "frames" : 8,
+      "animationCycle" : 240,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right",
+      "lightPosition" : [3, -3]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/bunkerconsole.wav",
+  "soundEffectRadius" : 10
+
+}

@@ -1,0 +1,38 @@
+{
+  "objectName" : "josiesdinerseat",
+  "rarity" : "Common",
+  "description" : "The cushions help make dining so much more confitable.",
+  "shortdescription" : "Josie's Diner Seat",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 600,
+
+  "apexDescription" : "It's so soft, I could melt just like butter!",
+  "avianDescription" : "I hope that's not real leather..",
+  "floranDescription" : "Sssoft comfy thing!",
+  "glitchDescription" : "Concern. May accidently cause cushion to become a pancake.",
+  "humanDescription" : "They sure do know how to make a good seat!",
+  "hylotlDescription" : "A soft yet firm cushion. I could get used to this.",
+  "kangaruDescription" : "These seats are almost as bouncey as a trampoline!",
+
+  "inventoryIcon" : "josiesdinerseaticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "josiesdinerseat.png:<color>",
+
+      "imagePosition" : [-9, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "interactAction" : "sitdown",
+  "sitFlipDirection" : false,
+  "sitPosition" : [3, 24]
+
+}

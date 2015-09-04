@@ -1,0 +1,66 @@
+[
+	{
+		"op": "add",
+		"path": "/merchantStart/kangaru",
+		"value": {
+			"default": [
+				"Need something 'ate?",
+				"Bits and bobs for sale!",
+				"Come and get a good deal 'ate!",
+				"I've got some sweet deals 'ate. Take a look!",
+				"Pixel goods! Done, dirt, cheap!",
+				"If you've got the pixels, I've got the stuff 'ate!"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/merchantEnd/kangaru",
+		"value": {
+			"default": [
+				"Thanks for the business 'ate!",
+				"Good luck out there 'ate.",
+				"Good business!",
+				"Hope to see you again 'ate!",
+				"Hope to see you around!",
+				"Bobs your uncle, 'ate!",
+				"Struth!",
+				"Don't be a stranger 'ate!"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/follow/kangaru",
+		"value": {
+			"default": [
+				"Follow me to my store, please.",
+				"The best prices around, just if you please to come with me.",
+				"I can show the merchandise in my store."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/welcome/kangaru",
+		"value": {
+			"default": [
+				"Does anything catch your eyes?",
+				"What you wish to buy? If you wish to buy...",
+				"I got everything that can help you in anything."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/tout/kangaru",
+		"value": {
+			"default" : [
+				"I got the best goods!",
+				"If you can't find it here... it's not for sale here.",
+				"Best deals around!",
+				"Interested in brand new goods?"
+			]
+		}
+	}
+]

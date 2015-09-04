@@ -1,0 +1,32 @@
+{
+  "objectName" : "platygonplush",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 50,
+
+  "description" : "A platygon plush. Seems to have made a boo-boo on its knee though.",
+  "shortdescription" : "Platygon Plushie",
+  "race" : "kangaru",
+
+  "apexDescription" : "A very weird looking creature made in to a plushie. Seems rather cute though.",
+  "avianDescription" : "A creature that looks like a bird but it's covered in fur. How very odd.",
+  "floranDescription" : "Sssilly thing hass boo-boo.",
+  "glitchDescription" : "Humor. Platygon fell down, go boom.",
+  "humanDescription" : "Honestly, where these kangaru come from, they have some very odd creatures.",
+  "hylotlDescription" : "Wait, so this is a creature that can swim and fly? Truly odd.",
+  "kangaruDescription" : "Reminds me of a guy who fell over and hurt his knee in a TV show.",
+
+  "inventoryIcon" : "platygonplushicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "platygonplush.png",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

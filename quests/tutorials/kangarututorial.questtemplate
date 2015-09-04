@@ -1,0 +1,12 @@
+{
+  "id" : "kangarututorial.gearup",
+  "title" : "^orange;Unbound",
+  "text" : "I've managed to escape from the Cult of Weavers but it seems someone sabotaged the ship well before departing orbit. I'll have to ^green;repair the ship and search for help.",
+  "completionText" : "Looks like the planet hoppers engines are operational again but the FTL still requires attention before we can leave the current system.",
+	"completionConditions" : [
+		{ "type" : "shiplevel", "level" : 2 }
+	],
+	"moneyRange" : [500, 500],
+	"followUp" : "ftlrepairmain.gearup",
+	"canBeAbandoned" : false
+}

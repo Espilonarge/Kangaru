@@ -1,0 +1,30 @@
+{
+  "objectName" : "posterkangarusign",
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 100,
+  "description" : "A Kangaru zone.",
+  "shortdescription" : "Kangaru Zone Sign",
+  "race" : "kangaru",
+  
+  "apexDescription" : "A Kangaru zone.",
+  "avianDescription" : "Kangaru's are here.",
+  "floranDescription" : "Kangaru! Musst find!",
+  "glitchDescription" : "Humor. This sign is jumping to conclusion.",
+  "humanDescription" : "There's Kangarus around.",
+  "hylotlDescription" : "Kangarus are abound.",
+  "kangaruDescription" : "This sign just makes me want to jump for joy!",
+  
+  "inventoryIcon" : "posterkangarusign.png",
+  "orientations" : [
+    {
+      "dualImage" : "posterkangarusign.png",
+      "imagePosition" : [-4, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

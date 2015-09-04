@@ -1,0 +1,23 @@
+{
+  "materialId" : 1333,
+  "materialName" : "tinroof",
+  "particleColor" : [66, 66, 66, 255],
+  "itemDrop" : "tinroof",
+  "description" : "Curved metal roof and wall material.",
+  "shortdescription" : "Curved Metal Sheet.",
+  "glitchDescription" : "Analysis. A thin curved metal.",
+  "floranDescription" : "Sssilly wacky wavey curvy wurvy flailing metal sssheet thing.",
+  "footstepSound" : "/sfx/blocks/footstep_composite.wav",
+  "health" : 20,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "tinroof.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 0
+  }
+}

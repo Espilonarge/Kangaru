@@ -1,0 +1,30 @@
+{
+  "objectName" : "posterbewaredropbears",
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 100,
+  "description" : "Heads up!",
+  "shortdescription" : "Beware Of Dropbears",
+  "race" : "kangaru",
+  
+  "apexDescription" : "A creature I have never heard about till now.",
+  "avianDescription" : "Where? WHERE!?",
+  "floranDescription" : "Bearss... tassty!",
+  "glitchDescription" : "Worried. I just had my head polished.",
+  "humanDescription" : "I best keep my picnic basket close..",
+  "hylotlDescription" : "I wonder if living in the ocean would have been safer..",
+  "kangaruDescription" : "If it's not the bears, it's spiders!",
+  
+  "inventoryIcon" : "posterbewaredropbearsicon.png",
+  "orientations" : [
+    {
+      "image" : "posterbewaredropbears.png",
+      "imagePosition" : [-18, -11],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

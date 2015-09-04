@@ -1,0 +1,30 @@
+{
+  "objectName" : "kangarustoragelocker",
+  "rarity" : "Rare",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "category" : "storage",
+  "description" : "A nice, spacious, wall-mounted storage solution.",
+  "shortdescription" : "Storage Locker",
+  "race" : "kangaru",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "kangarustoragelocker.png:<color>.<key>",
+      "imagePosition" : [-16, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/chest_small_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.wav" ],
+  "slotCount" : 48,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "openFrameIndex" : 4,
+  "autoCloseCooldown" : 3600
+}

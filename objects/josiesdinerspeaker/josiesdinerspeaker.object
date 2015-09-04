@@ -1,0 +1,33 @@
+{
+  "objectName" : "josiesdinerspeaker",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 400,
+
+  "description" : "All it emits is the sound of a busy diner.",
+  "shortdescription" : "Josie's Speaker",
+  "race" : "kangaru",
+
+  "apexDescription" : "Sure does make the place sound more lively.",
+  "avianDescription" : "Sure does make the place sound more lively.",
+  "floranDescription" : "Sssure doess make the place ssound more lively.",
+  "glitchDescription" : "Humor. If it explodes, does that make it a boombox?",
+  "humanDescription" : "Sure does make the place sound more lively.",
+  "hylotlDescription" : "Helps to liven up the place.",
+
+  "inventoryIcon" : "josiesdinerspeakericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "josiesdinerspeaker.png:<color>",
+      "imagePosition" : [-8, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ],
+  "soundEffect" : "/sfx/objects/diner.ogg",
+  "soundEffectRadius" : 10  
+}

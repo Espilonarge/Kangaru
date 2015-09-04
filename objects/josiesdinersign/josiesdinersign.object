@@ -1,0 +1,37 @@
+{
+  "objectName" : "josiesdinersign",
+  "rarity" : "Common",
+  "price" : 300,
+  "description" : "Josie's Diner. When at Josie's, you'll feel cosie's!",
+  "shortdescription" : "Josie's Diner",
+  "race" : "kangaru",
+  "category" : "light",
+  "lightColor" : [255, 150, 150],
+  "flickerDistance" : 0.8,
+  "flickerStrength" : 0.3,
+  "flickerTiming" : 2.0,
+
+  "apexDescription" : "Bet they got their coffee from a nebula.",
+  "avianDescription" : "Best not drink too much coffee or I'll end up bouncing all day and night.",
+  "floranDescription" : "Icky tassty coffee.",
+  "glitchDescription" : "Humor. Cough-fee.",
+  "humanDescription" : "I wonder if they have coffee flavored coffee..",
+  "hylotlDescription" : "I wonder if they have tea..",
+  "kangaruDescription" : "Nothing quite like fine dining at a little ol' diner.",
+
+  "inventoryIcon" : "josiesdinersignicon.png",
+  "orientations" : [
+    {
+      "image" : "josiesdinersign.png:<color>.<frame>",
+      "imagePosition" : [-12, 0],
+      "frames" : 2,
+      "animationCycle" : 0.1,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/fluorescent_light_quiet.wav",
+  "soundEffectRadius" : 30
+
+}

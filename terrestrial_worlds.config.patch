@@ -1,0 +1,6 @@
+[
+	{ "op" : "add", "path": "/planetTypes/forest/layers/surface/dungeons/-", "value" : "kangaruvillage" },
+	{ "op" : "add", "path": "/planetTypes/jungle/layers/surface/dungeons/-", "value" : "kangaruvillage" },
+	{ "op" : "add", "path": "/planetTypes/savannah/layers/surface/dungeons/-", "value" : "kangaruvillage" }
+	
+]

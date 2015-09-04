@@ -1,0 +1,37 @@
+{
+  "objectName" : "josiesdinersign3",
+  "rarity" : "Common",
+  "price" : 200,
+  "description" : "Josie's Neon Cola Sign. When at Josie's, you'll feel cosie's!",
+  "shortdescription" : "Josie's Neon Cola Sign",
+  "race" : "kangaru",
+  "category" : "light",
+  "lightColor" : [150, 150, 255],
+  "flickerDistance" : 0.7,
+  "flickerStrength" : 0.3,
+  "flickerTiming" : 2.0,
+
+  "apexDescription" : "Looks like they got busy with the fizzy.",
+  "avianDescription" : "Hopefully it doesn't give gas or I'll fly away!",
+  "floranDescription" : "Fizzzzy funny ssstuff.",
+  "glitchDescription" : "Interest. This makes my circuit boards shiver with excitement.",
+  "humanDescription" : "Absolutely refreshing, now with more caffeine.",
+  "hylotlDescription" : "I would prefer tea over something that is inorganically grown.",
+  "kangaruDescription" : "It tickles on the inside and makes me want to bounce!",
+
+  "inventoryIcon" : "josiesdinersign3icon.png",
+  "orientations" : [
+    {
+      "image" : "josiesdinersign3.png:<color>.<frame>",
+      "imagePosition" : [0, 2],
+      "frames" : 2,
+      "animationCycle" : 0.1,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/fluorescent_light_quiet.wav",
+  "soundEffectRadius" : 20
+
+}

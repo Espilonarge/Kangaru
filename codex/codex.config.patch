@@ -1,0 +1,6 @@
+[
+	{ "op" : "add",
+		"path" : "/initialcodex/kangaru",
+		"value" : [ "controls", "hylotlprologue", "hylotlorigins", "hylotldirective" ]
+	}
+]

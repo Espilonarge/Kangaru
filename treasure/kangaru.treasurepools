@@ -1,0 +1,11 @@
+{
+  "kangaruStarterTreasure" : [
+    [0, {
+        "fill" : [
+		  {"pool" : "starterTreasure"},
+		  {"item" : [ "aviantier0shortsword", 1]},
+		  {"item" : [ "kangarustarter", 1]}
+       ]
+    }]
+  ]
+}

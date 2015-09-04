@@ -1,0 +1,29 @@
+[
+	{ "op" : "add",
+		"path" : "/scriptConfig/merchant/categories/kangaru",
+		"value" : [ "randomguns", "randomswords", "kangaruclothes", "kangaruingredients" ]
+	},
+	{ "op" : "add",
+		"path" : "/items/kangaru",
+		"value" : [
+			[ 0, [
+			
+				{
+					"chest" : [
+						{ "name" : "coolchest", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10] } },
+						{ "name" : "conceptchest", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10] } },
+						{ "name" : "sweatervestchest", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10] } },
+						{ "name" : "workoutchest", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10] } },
+						{ "name" : "cameruchest", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10] } }
+					],
+					"legs" : [
+						{ "name" : "workoutlegs", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10] } },
+						{ "name" : "coollegs", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10] } },
+						{ "name" : "conceptlegs", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10] } },
+						{ "name" : "sweatervestlegs", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10] } }
+					]
+				}
+			] ]
+		]
+	}
+]

@@ -1,0 +1,32 @@
+{
+  "objectName" : "mintersplush",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 50,
+
+  "description" : "A kangaru plush that is mint scented.",
+  "shortdescription" : "Minters Plushie",
+  "race" : "kangaru",
+
+  "apexDescription" : "It even smells like mint!",
+  "avianDescription" : "I wonder if the pouch has mint inside..",
+  "floranDescription" : "It'sss ssso fluffy!",
+  "glitchDescription" : "Humor. It apparently likes to scarf down mints.",
+  "humanDescription" : "What a cute kangaru plushie!",
+  "hylotlDescription" : "The mint scent is truly refreshing.",
+  "kangaruDescription" : "Thank god it doesn't come with a pull string..",
+
+  "inventoryIcon" : "mintersplushicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "mintersplush.png",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "objectName" : "cityplantbox2",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 100,
+
+  "description" : "A cement box that hangs from the roof that's overflowing with plants.",
+  "shortdescription" : "Roof Plant Box",
+  "race" : "kangaru",
+
+  "apexDescription" : "Seems to contain ferns of some sort.",
+  "avianDescription" : "I didn't know plants could grow from the sky as well.",
+  "floranDescription" : "Pretty fluffy plant.",
+  "glitchDescription" : "Observation. A plant box containing foliage.",
+  "humanDescription" : "Those ferns add a nice touch to the roof.",
+  "hylotlDescription" : "A box full of plants that almost look like rain.",
+  "kangaruDescription" : "Nothing quite like a fern to brighten up the place.",
+
+  "inventoryIcon" : "cityplantbox2icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "cityplantbox2.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    }
+  ]
+}

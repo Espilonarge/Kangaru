@@ -1,0 +1,29 @@
+[
+	{ "op" : "replace",
+		"path" : "/levelVariance",
+		"value" : [ 0, 0 ]
+	},
+	{ "op" : "add",
+		"path" : "/items/kangaru",
+		"value" : [
+			[0, [
+				{
+					"chest" : [
+						{ "name" : "conceptchest", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
+						{ "name" : "shirtlong1chest", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
+						{ "name" : "coolchest", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10] } },
+						{ "name" : "sweatervestchest", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10] } },
+						{ "name" : "workoutchest", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10] } },
+						{ "name" : "cameruchest", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10] } }
+					],
+					"legs" : [
+						{ "name" : "workoutlegs", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11,12] } },
+						{ "name" : "coollegs", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11,12] } },
+						{ "name" : "conceptlegs", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11,12] } },
+						{ "name" : "sweatervestlegs", "data" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11,12] } }
+					]
+				}	
+			] ]
+		]
+	}
+]

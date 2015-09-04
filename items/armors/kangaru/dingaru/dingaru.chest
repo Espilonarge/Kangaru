@@ -1,0 +1,68 @@
+{
+  "itemName" : "dingaruchest",
+  "price" : 0,
+  "inventoryIcon" : "icons.png:chest",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A set of replica boxing gloves and scarf that were worn by a famous hybrid hero.",
+  "shortdescription" : "Dingaru Regelia",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "statusEffects" : [
+    {
+      "stat" : "protection",
+      "amount" : 0.5
+    }
+  ],
+
+  "colorOptions" : [
+    /* RED */
+    { "e0975c" : "d93a3a", "a85636" : "932625", "6f2919" : "601119" },
+    /* BLACK */
+    { "e0975c" : "555555", "a85636" : "383838", "6f2919" : "151515" },
+    /* GREY */
+    { "e0975c" : "808080", "a85636" : "555555", "6f2919" : "303030" },
+    /* WHITE */
+    { "e0975c" : "b6b6b6", "a85636" : "7b7b7b", "6f2919" : "373737" },
+    /* RED */
+    { "e0975c" : "d93a3a", "a85636" : "932625", "6f2919" : "601119" },
+    /* ORANGE */
+    { "e0975c" : "ea9931", "a85636" : "af4e00", "6f2919" : "6e2900" },
+    /* YELLOW */
+    { "e0975c" : "e2c344", "a85636" : "a46e06", "6f2919" : "642f00" },
+    /* GREEN */
+    { "e0975c" : "51bd3b", "a85636" : "247824", "6f2919" : "144216" },
+    /* BLUE */
+    { "e0975c" : "5588d4", "a85636" : "344495", "6f2919" : "1a1c51" },
+    /* PURPLE */
+    { "e0975c" : "a451c4", "a85636" : "6a2284", "6f2919" : "320c40" },
+    /* PINK */
+    { "e0975c" : "d35eae", "a85636" : "97276d", "6f2919" : "59163f" },
+    /* BROWN */
+    { "e0975c" : "a47844", "a85636" : "754c23", "6f2919" : "472b13" }
+    /*
+    { "e0975c" : "bda67a", "a85636" : "9c7f54", "6f2919" : "755937" },
+    { "e0975c" : "a32c2c", "a85636" : "71291b", "6f2919" : "4c1e10" },
+    { "e0975c" : "1a7bb5", "a85636" : "0e427e", "6f2919" : "072655" },
+    { "e0975c" : "78b618", "a85636" : "3f7f0d", "6f2919" : "255606" },
+    { "e0975c" : "d3bb1c", "a85636" : "9c8011", "6f2919" : "644807" },
+    { "e0975c" : "ca6705", "a85636" : "8c5d00", "6f2919" : "5c4400" },
+    { "e0975c" : "931ad0", "a85636" : "710587", "6f2919" : "52015b" },
+    { "e0975c" : "505050", "a85636" : "363636", "6f2919" : "181818" },
+    { "e0975c" : "c6d2d4", "a85636" : "97abac", "6f2919" : "627677" }
+*/
+  ]
+}

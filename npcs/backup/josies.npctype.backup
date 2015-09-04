@@ -1,0 +1,273 @@
+{
+  "type" : "josies",
+  "baseType" : "merchant",
+
+  "damageTeam" : 1,
+  
+  "levelVariance" : [0, 0],
+
+  "disableWornArmor" : true,
+  "inateStatusEffects" : [
+    {
+      "kind" : "Protection",
+      "amount" : 1.0
+    }
+  ],
+
+  "scripts" : [
+    "/npcs/bmain.lua"",
+    "/npcs/timers.lua",
+    "/scripts/sensors.lua",
+    "/scripts/stateMachine.lua",
+    "/scripts/util.lua",
+    "/scripts/vec2.lua",
+	"/npcs/chatState.lua",
+	"/npcs/converseState.lua",
+    "/npcs/fleeState.lua",
+    "/npcs/sitState.lua",
+    "/npcs/sleepState.lua",
+    "/npcs/standingIdleState.lua",
+    "/npcs/wanderState.lua",
+
+    "/npcs/merchant/merchantState.lua",
+    "/npcs/merchant/returnToStoreState.lua"
+  ],
+  
+  "scriptDelta" : 5,
+  "scriptConfig" : {
+    "idleTimeRange" : [2.0, 10.0],
+
+    "merchant" : {
+      "waitTime" : 10,
+      "storeRadius" : 3,
+      "waitTargetDistance" : 12,
+
+      "dialog" : {
+        "start" : {
+			"kangaru" : [
+				"Welcome to Josie's! What can I get you?",
+				"Welcome to Josie's! Please take a seat!",
+				"Welcome to Josie's where we make you feel cosies!",
+				"Hi there, how may I take your order?",
+				"Hi and welcome to Josie's. May I take your order, please?",
+				"Hi and welcome to Josie's. What would you like?",
+				"Welcome to Josie's! What will you be ordering?",
+				"Welcome to Josie's! How may I take your order?",
+				"Welcome to Josie's! What'll it be?"
+				]
+			}
+		},
+		"end" : {	
+			"kangaru" : {
+				"default" : [
+				"Thanks and enjoy your meal!",
+				"Thanks and have a good day!",
+				"Would you like fries with that?",
+				"Thank you and you have a lovely day!",
+				"What, no tip?",
+				"Hope you enjoy your meal!",
+				"Lovely, anything else I can get you?",
+				"Wonderful, enjoy your meal 'ate!",
+				"Don't forget to tell your friends about Josie's!",
+				"Thanks for ordering.",
+				"If you need anything else, don't hesitate to ask!",
+				"Thanks for ordering at Josie's!"
+				]
+			}
+        },
+			
+	"categories" : [ "josiesfoods" ],
+		"items" : {
+			"josiesfoods" : [
+			[0, [
+            { "item" : { "name" : "alienburger" }, "cost" : 1640 },
+            { "item" : { "name" : "apegrapes" }, "cost" : 8393 },
+            { "item" : { "name" : "applepie" }, "cost" : 2730 },
+            { "item" : { "name" : "automatostew" }, "cost" : 8935, "rarity" : 0.5 },
+            { "item" : { "name" : "avesmingoicecream" }, "cost" : 8302, "rarity" : 0.5 },
+            { "item" : { "name" : "bananabread" }, "cost" : 1755 },
+            { "item" : { "name" : "bananacon" }, "cost" : 1788 },
+            { "item" : { "name" : "bananacreampie" }, "cost" : 2296 },
+            { "item" : { "name" : "bananasplit" }, "cost" : 8985, "rarity" : 0.5 },
+            { "item" : { "name" : "batteredbanana" }, "cost" : 1440 },
+            { "item" : { "name" : "blackcurrentcrumble" }, "cost" : 1568 },
+            { "item" : { "name" : "boiledpearlpeas" }, "cost" : 15390, "rarity" : 0.5 },
+            { "item" : { "name" : "boltos" }, "cost" : 982 },
+            { "item" : { "name" : "boneboomarrow" }, "cost" : 2220 },
+            { "item" : { "name" : "bread" }, "cost" : 630 },
+            { "item" : { "name" : "brineapple" }, "cost" : 8405 },
+            { "item" : { "name" : "burningeyeballs" }, "cost" : 2171 },
+            { "item" : { "name" : "cake" }, "cost" : 3625 },
+            { "item" : { "name" : "candiedcorn" }, "cost" : 1264 },
+            { "item" : { "name" : "candiedpearlpeas" }, "cost" : 8595, "rarity" : 0.5 },
+            { "item" : { "name" : "candy" }, "cost" : 900 },
+            { "item" : { "name" : "candyapple" }, "cost" : 1500 },
+            { "item" : { "name" : "candyautomato" }, "cost" : 2040 },
+            { "item" : { "name" : "carrotbread" }, "cost" : 1860 },
+            { "item" : { "name" : "carrotcake" }, "cost" : 1764 },
+            { "item" : { "name" : "chilistew" }, "cost" : 1818 },
+            { "item" : { "name" : "copperkeypie" }, "cost" : 8095, "rarity" : 0.5 },
+            { "item" : { "name" : "coralcreepcurry" }, "cost" : 1751 },
+            { "item" : { "name" : "corncob" }, "cost" : 364 },
+            { "item" : { "name" : "cornontheblob" }, "cost" : 1519 },
+            { "item" : { "name" : "cornpeckers" }, "cost" : 701 },
+            { "item" : { "name" : "corntent" }, "cost" : 839 },
+            { "item" : { "name" : "crowncake" }, "cost" : 9451, "rarity" : 0.5 },
+            { "item" : { "name" : "curriedbeakseed" }, "cost" : 1172 },
+            { "item" : { "name" : "eggfriedrice" }, "cost" : 880 },
+            { "item" : { "name" : "eggshootsalad" }, "cost" : 1636 },
+            { "item" : { "name" : "eyebowls" }, "cost" : 1161 },
+            { "item" : { "name" : "fishfingers" }, "cost" : 848 },
+            { "item" : { "name" : "fishinabone" }, "cost" : 1643 },
+            { "item" : { "name" : "fishnchips" }, "cost" : 2333 },
+            { "item" : { "name" : "fruitsalad" }, "cost" : 8271, "rarity" : 0.5 },
+            { "item" : { "name" : "gardensalad" }, "cost" : 1133 },
+            { "item" : { "name" : "hotbone" }, "cost" : 1608 },
+            { "item" : { "name" : "icecream" }, "cost" : 1350 },
+            { "item" : { "name" : "lollypop" }, "cost" : 1800 },
+            { "item" : { "name" : "luckydip" }, "cost" : 1718 },
+            { "item" : { "name" : "mashedpotato" }, "cost" : 1620 },
+            { "item" : { "name" : "meatandmarrow" }, "cost" : 1500 },
+            { "item" : { "name" : "meatwich" }, "cost" : 1393 },
+            { "item" : { "name" : "nutsandbolts" }, "cost" : 794 },
+            { "item" : { "name" : "oculemonstew" }, "cost" : 1348 },
+            { "item" : { "name" : "offal" }, "cost" : 1420 },
+            { "item" : { "name" : "pearlpeapancakes" }, "cost" : 8566, "rarity" : 0.5 },
+            { "item" : { "name" : "pearlpeaparcels" }, "cost" : 8047, "rarity" : 0.5 },
+            { "item" : { "name" : "piodia" }, "cost" : 8605, "rarity" : 0.5 },
+            { "item" : { "name" : "8gbpizzap" }, "cost" : 2355 },
+            { "item" : { "name" : "pussplumpie" }, "cost" : 8045, "rarity" : 0.5 },
+            { "item" : { "name" : "ricecake" }, "cost" : 648 },
+            { "item" : { "name" : "ricepudding" }, "cost" : 1074 },
+            { "item" : { "name" : "campfirebanana" }, "cost" : 1140 },
+            { "item" : { "name" : "roastdinner" }, "cost" : 9682, "rarity" : 0.5 },
+            { "item" : { "name" : "saltsalad" }, "cost" : 8685, "rarity" : 0.5 },
+            { "item" : { "name" : "smash" }, "cost" : 7855, "rarity" : 0.5 },
+            { "item" : { "name" : "soggysack" }, "cost" : 1760 },
+            { "item" : { "name" : "spicyfeathercrown" }, "cost" : 3156 },
+            { "item" : { "name" : "stuffedautomato" }, "cost" : 1464 },
+            { "item" : { "name" : "stuffeddirturchin" }, "cost" : 9420, "rarity" : 0.5 },
+            { "item" : { "name" : "sweetcorn" }, "cost" : 370 },
+            { "item" : { "name" : "sweetmeat" }, "cost" : 663 },
+            { "item" : { "name" : "sweettime" }, "cost" : 8333, "rarity" : 0.5 },
+            { "item" : { "name" : "thespecial" }, "cost" : 2080 },
+            { "item" : { "name" : "vegetablesoup" }, "cost" : 2303 },
+            { "item" : { "name" : "wartweedstew" }, "cost" : 1485 }
+          ]]
+				],
+			"kangaru" : [
+			[0, [
+        {
+          "chest" : [ "georgechest" ],
+          "legs" : [ "georgelegs" ]
+        }
+      ]]
+		]
+	},
+			
+	"flee" : {
+     "reactionTimeRange" : [0.2, 1.0],
+     "safeDistance" : 100,
+     "safeDistanceWithGuards" : 40,
+     "safeTimer" : 10,
+     "stuckTime" : 4,
+     "stuckCooldown" : 10,
+     "dialogTimeRange" : [4, 10],
+      
+      "dialog" : {
+        "helpme" : {
+          "default" : [
+            "Bloody 'ell! Someone get help!",
+            "I didn't sign up for this!",
+            "I was only doing my job!"
+          ]
+        }
+       }
+      },
+        
+      "chat" : {
+      "distanceRange" : [ 2.0, 4.0 ],
+      "conversations" : [
+        [
+          [ 2, "blabber", "idle" ],
+          [ 1, "idle", "laugh" ],
+          [ 2, "idle", "blabber" ],
+          [ 1, "sad", "idle" ]
+        ],
+        [
+          [ 2, "idle", "blabber" ],
+          [ 2, "blabber", "happy" ],
+          [ 1, "wink", "laugh" ],
+          [ 2, "happy", "happy" ]
+        ],
+        [
+          [ 2, "idle", "blabber" ],
+          [ 2, "blabber", "blabber" ],
+          [ 2, "blabber", "angry" ],
+          [ 3, "shout", "shout" ],
+          [ 2, "angry", "angry" ]
+        ]
+      ],
+      "cooldown" : 10
+    }
+  }, 
+	
+//break
+
+  "movementControllerSettings" : {
+    "standingPoly" : [ [-0.75, -2.0], [-0.35, -2.5], [0.35, -2.5], [0.75, -2.0], [0.75, 0.65], [0.35, 1.22], [-0.35, 1.22], [-0.75, 0.65] ],
+    "crouchingPoly" : [ [-0.75, -2.0], [-0.35, -2.5], [0.35, -2.5], [0.75, -2.0], [0.75, -0.5], [0.35, 0], [-0.35, 0], [-0.75, -0.5] ],
+
+    "mass" : 0.6,
+    "jumpSpeed" : 24.0
+  },
+
+  "humanoidTiming" : {
+    // Idle, Walk, Run, Jump, Fall, Swim, SwimIdle, Duck, Sit, Lay
+    "stateCycle" : [1.0, 0.75, 0.75, 0.25, 0.25, 0.50, 0.50, 1.0, 1.0, 1.0],
+    "stateFrames" : [1, 8, 8, 4, 4, 7, 2, 1, 1, 1],
+
+    // EmoteIdle, Blabbering, Shouting, Happy, Sad, NEUTRAL, Laugh, Annoyed, Oh, OOOH, Blink, Wink, Eat, Sleep
+    //          , normal    , caps    , :)   , :'(, :|     , :D   ,        , :o, :O  ,      , ;)
+    "emoteCycle" : [1.0, 0.3, 0.3, 0.3, 1.0, 0.3, 0.5, 1.0, 1.0, 1.0, 1.0, 0.5, 0.3, 1],
+    "emoteFrames" : [1, 2, 2, 2, 5, 2, 2, 2, 2, 3, 3, 5, 2, 2]
+  },
+    
+  "dropPools" : [ "basicMonsterTreasure" ],
+
+  "statusParameters" : {
+    "baseMaxHealth" : 40,
+    "baseMaxEnergy" : 20,
+    "bodyMaterialKind" : "organic",
+    "damageConfig" : "/damage/damageresponse/npcs.config",
+    "invulnerabilityTime" : 0
+  },
+  
+  "persistent" : true,
+
+  "splashConfig" : {
+    "splashSpeedMin" : 10.0,
+    "splashMinWaterLevel" : 0.4,
+    "splashBottomSensor" : [0, -2.0],
+    "splashTopSensor" : [0, 2.0],
+    "numSplashParticles" : 8,
+    "splashYVelocityFactor" : 0.2,
+
+    "splashParticle" : {
+      "type" : "ember",
+      "position" : [0, -1],
+      "finalVelocity" : [0, -20],
+      "approach" : [0, 50],
+      "color" : [60, 150, 224, 100],
+      "size" : 4.0,
+      "timeToLive" : 0.5,
+      "destructionAction" : "shrink",
+      "destructionTime" : 0.2
+    },
+
+    "splashParticleVariance" : {
+      "velocity" : [10, 0]
+    }
+  }
+ }
+}

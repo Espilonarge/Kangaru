@@ -1,0 +1,30 @@
+{
+  "objectName" : "prefabfern",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 50,
+
+  "description" : "A simple ceremic bowl held up by chains containing a fern.",
+  "shortdescription" : "Fern",
+  "race" : "kangaru",
+
+  "apexDescription" : "Any house would go well with a fern like that.",
+  "avianDescription" : "What an interesting fern.",
+  "floranDescription" : "Dangily fluffy plant.",
+  "glitchDescription" : "Observation. A hanging pot containing foliage.",
+  "humanDescription" : "Gully, what a fern..",
+  "hylotlDescription" : "They sure do add vibrance to any roof.",
+  "kangaruDescription" : "A small but room improving fern.",
+
+  "inventoryIcon" : "prefabfernicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "prefabfern.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    }
+  ]
+}

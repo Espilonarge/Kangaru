@@ -1,0 +1,49 @@
+{
+  "objectName" : "flagkangaru",
+  "tags" : ["kangaru"],
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "teleporter",
+  "category" : "decorative",
+  "price" : 70,
+
+  "description" : "The Kangaru flag. Marked with southern land stars and the sun.",
+  "shortdescription" : "Kangaru Flag",
+  "race" : "kangaru",
+
+  "apexDescription" : "A Kangaru flag. Lots of pretty stars.",
+  "avianDescription" : "A Kangaru flag. They must be another land race.",
+  "floranDescription" : "Kangaru. Many ssstar and circle thingsss.",
+  "glitchDescription" : "Observation. This flag belongs to the Kangaru.",
+  "humanDescription" : "A Kangaru flag. The must live under the stars.",
+  "hylotlDescription" : "A Kangaru flag. They must be grass hoppers.",
+  "kangaruDescription" : "Our flag. It means 'we stand united under the southern stars.'",
+  
+  "interactAction" : "OpenTeleportDialog",
+  "interactData" : "/interface/warping/destinationonly.config",
+
+  "inventoryIcon" : "flagkangaruicon.png",
+  "orientations" : [
+    {
+      "image" : "flagkangaru.png:<color>.<frame>",
+      "flipImages" : true,
+      "direction" : "left",
+      "imagePosition" : [-17, 0],
+      "frames" : 6,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "flagkangaru.png:<color>.<frame>",
+      "direction" : "right",
+      "imagePosition" : [1, 0],
+      "frames" : 6,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+[
+	{ "op" : "add",
+		"path" : "/initialquests/kangaru",
+		"value" : [ "kangarututorial.gearup" ]
+	}
+]

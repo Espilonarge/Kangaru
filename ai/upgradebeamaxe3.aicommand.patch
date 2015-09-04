@@ -1,0 +1,29 @@
+[
+	{ "op" : "add",
+		"path" : "/speciesText/kangaru",
+		"value" : {
+			"buttonText" : "Upgrade M. M. - Size",
+			"selectSpeech" : [
+				{
+					"animation" : "talk",
+					"text" : "^white;With ^orange;10 bars of gold^white; and ^orange;10 bars of titanium^white;, I can upgrade your matter manipulator to ^green;increase its mining area^white;.",
+					"speedModifier" : 1.0
+				}
+			],
+			"successSpeech" : [
+				{
+					"animation" : "unique",
+					"text" : "^white;Your matter manipulator has been upgraded.",
+					"speedModifier" : 1.0
+				}
+			],
+			"failSpeech" : [
+				{
+					"animation" : "refuse",
+					"text" : "^white;Insufficient resources. I'll need ^orange;10 gold bars^white; and ^orange;10 titanium bars^white; to complete this upgrade.",
+					"speedModifier" : 1.0
+				}
+			]
+		}
+	}
+]

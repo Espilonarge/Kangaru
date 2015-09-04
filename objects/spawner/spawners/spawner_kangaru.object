@@ -1,0 +1,56 @@
+{
+  "objectName" : "spawnerkangaru",
+  "tags" : ["misc"],
+  "rarity" : "Common",
+  "description" : "Spawn your very own Kangaru villager!",
+  "shortdescription" : "Kangaru Spawner",
+  "race" : "human",
+  "printable" : false,
+  "category" : "spawner",
+  "price" : 100,
+
+  "apexDescription" : "I could use more furry beings around here.",
+  "avianDescription" : "I could bring in some grasshoppers.",
+  "floranDescription" : "Fuzzy fluffy furry bouncy crittersss!",
+  "glitchDescription" : "Interest. The Kangaru can reach those hard to reach places.",
+  "humanDescription" : "Blimey! I can summon my own mob!",
+  "hylotlDescription" : "They could prove to be useful cooks.",
+
+  "inventoryIcon" : "defaulticon.png",
+  "orientations" : [
+    {
+      "image" : "spawner_kangaru.png",
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "background" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/spawner/spawners/spawner.lua" ],
+  "scriptDelta" : 1,
+  //6000,
+
+  "animation" : "/objects/spawner/spawners/kangaru.animation",
+
+  "animationParts" : {
+    "switch" : "spawner_kangaru.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "inboundNodes" : [ ],
+  "outboundNodes" : [ ],
+
+  "spawner" : {
+    "searchRadius" : 32.0,
+    "npcSpeciesOptions" : [ "kangaru" ],
+    "npcTypeOptions" : [ "villager" ],
+    "npcParameterOptions" : [
+      {
+        "dropPools" : [ ]
+      }
+    ]
+  }
+
+}

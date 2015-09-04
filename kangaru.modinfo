@@ -1,0 +1,13 @@
+    {
+    "name" : "Kangaru",
+    "path" : ".",
+    "requires" : [],
+	"includes" : [],
+      "metadata": {
+	    "version" : "0.4D",
+        "author" : "Espilonarge",
+        "description" : "Kangaru Race",
+        "support_url" : "http://community.playstarbound.com/index.php?resources/kangaru-race.64/"
+		}
+	}
+

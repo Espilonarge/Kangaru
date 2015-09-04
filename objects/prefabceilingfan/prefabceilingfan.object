@@ -1,0 +1,33 @@
+{
+  "objectName" : "prefabceilingfan",
+  "rarity" : "Common",
+  "price" : 800,
+  "description" : "A fan made with wooden blades.",
+  "shortdescription" : "Ceiling Fan",
+  "race" : "kangaru",
+  "category" : "decorative",
+
+  "apexDescription" : "Feels good on our fur when inside.",
+  "avianDescription" : "The circulation of the air really feels good.",
+  "floranDescription" : "Ssspinny machine feel like wind.",
+  "glitchDescription" : "Humor. I am a big fan of yours.",
+  "humanDescription" : "There's three settings. Very slow, barely moving and buzzsaw of mayhem.",
+  "hylotlDescription" : "Don't stay under these too long or our skin will dry out.",
+  "kangaruDescription" : "Being hot where we come from, these sure do help keep the air flow going.",
+
+  "inventoryIcon" : "prefabceilingfanicon.png",
+  "orientations" : [
+    {
+      "image" : "prefabceilingfan.png:<color>.<frame>",
+      "imagePosition" : [-12, -2],
+      "frames" : 4,
+      "animationCycle" : 0.2,
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/ceilingfan.wav",
+  "soundEffectRadius" : 10
+
+}

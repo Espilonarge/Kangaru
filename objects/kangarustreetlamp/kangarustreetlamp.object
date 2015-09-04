@@ -1,0 +1,39 @@
+{
+  "objectName" : "kangarustreetlamp",
+  "rarity" : "Common",
+  "description" : "An outdoor lamp to help brighten the night.",
+  "shortdescription" : "Street Lamp",
+  "race" : "generic",
+
+  "category" : "light",
+  "price" : 1200,
+  "lightColor" : [255, 255, 200],
+
+  "floranDescription" : "Bright ssshiny.",
+  "glitchDescription" : "Statement. A outside light.",
+
+  "inventoryIcon" : "kangarustreetlampicon.png",
+  "orientations" : [
+    {
+    "imageLayers" : [ { "image" : "kangarustreetlamp.png:<color>.<frame>", "fullbright" : true }, { "image" : "kangarustreetlamp.png:<color>.<frame>" } ],
+      "imagePosition" : [-12, 0],
+      "frames" : 1,
+      "animationCycle" : 0.3,
+      "flipImages" : true,
+      "direction" : "left",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "lightPosition" : [0, 1]
+    },
+    {
+    "imageLayers" : [ { "image" : "kangarustreetlamp.png:<color>.<frame>", "fullbright" : true }, { "image" : "kangarustreetlamp.png:<color>.<frame>" } ],
+      "imagePosition" : [-12, 0],
+      "frames" : 1,
+      "animationCycle" : 0.3,
+      "direction" : "right",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "lightPosition" : [0, 1]
+    }
+  ]
+}

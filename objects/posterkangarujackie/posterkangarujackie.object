@@ -1,0 +1,30 @@
+{
+  "objectName" : "posterkangarujackie",
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 100,
+  "description" : "Famous jacket wearing kangaru!",
+  "shortdescription" : "Kangaru Jackie Poster",
+  "race" : "kangaru",
+  
+  "apexDescription" : "Oh wow, hopefully no animals were harmed in the making..",
+  "avianDescription" : "He looks dashing in red.",
+  "floranDescription" : "Ooohh! Pretty Kangaru!",
+  "glitchDescription" : "Humor. Hopefully this kangaru does not jump the hylotl.",
+  "humanDescription" : "These Kangaru sure do take pride in their stars.",
+  "hylotlDescription" : "He sure looks Jack'd up.",
+  "kangaruDescription" : "A famous Kangaru actor. I wonder if there'll be a sequel..",
+  
+  "inventoryIcon" : "posterkangarujackieicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "posterkangarujackie.png",
+      "imagePosition" : [-4, -12],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

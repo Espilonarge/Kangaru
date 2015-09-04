@@ -1,0 +1,41 @@
+[
+	{
+		"op": "add",
+		"path": "/beacon/kangaru",
+		"value": {
+			"default": [
+				"This place is pretty roomy, don't you think?",
+				"Hi there. Is there something I could help you with 'ate?",
+				"Is there something you need 'ate?",
+				"Could I help you with something?",
+				"What do you need 'ate?",
+				"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/rent/kangaru",
+		"value": {
+			"default": [
+				"Here's the payment.",
+				"Ah yes, the payment... the payment for the landlord... landlords payment.",
+				"Hope you'll put it to good use.",
+				"Don't be a stranger!",
+				"Funny, I could have sworn I paid the other week..",
+				"Best not rant and wave, just rent and wave!",
+				"Always got to pay your dues.",
+				"Do you think you could check the walls? I keep hearing scratches at night.",
+				"Make sure to remember that I'm a Tennant, not a doctor.",
+				"The house isn't warm enough at night so maybe this rent could help give it a second coat?",
+				"Here, take this. It might be handy if you, the master of home-owning, take it with you.",
+				"All your rent are belong to you!",
+				"Ah yes, here's the rent.",
+				"Ah yes, here's something for being a good landlord.",
+				"Oh uhh... where did I... ah yes, here it is!",
+				"I couldn't have found a better place to live so here, take this!",
+				"
+			]
+		}
+	}
+]

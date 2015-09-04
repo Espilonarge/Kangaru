@@ -1,0 +1,30 @@
+{
+  "objectName" : "posterbeach",
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 100,
+  "description" : "Lovely scenery.",
+  "shortdescription" : "Beach poster",
+  "race" : "kangaru",
+  
+  "apexDescription" : "What a fine looking beach.",
+  "avianDescription" : "I would love to feel that ocean breeze amongst my feathers.",
+  "floranDescription" : "Sssalty water! Yuck!",
+  "glitchDescription" : "Concern. Salt water is not a friend of the Glitch.",
+  "humanDescription" : "Just looking at this makes me feel relaxed.",
+  "hylotlDescription" : "Even I yearn to return.",
+  "kangaruDescription" : "Surfs up!",
+  
+  "inventoryIcon" : "posterbeachicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "posterbeach.png",
+      "imagePosition" : [-20, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "objectName" : "cityfountain",
+  "rarity" : "Common",
+  "price" : 240,
+  "description" : "A stone pillar built with a waterfall fountain.",
+  "shortdescription" : "Waterfall Fountain",
+  "race" : "kangaru",
+  "category" : "decorative",
+
+  "apexDescription" : "A calming water fountain. I wonder if it's drinkable..",
+  "avianDescription" : "Who knew such a water feature would be calming.",
+  "floranDescription" : "Sslow water make Floran ssleepy..",
+  "glitchDescription" : "Observation. A beautiful yet simple water feature.",
+  "humanDescription" : "Water water everywhere so lets all have a drink!",
+  "hylotlDescription" : "Just watching this is calming and soothing to my ears.",
+  "kangaruDescription" : "I wonder if anyone threw any pixels in..",
+
+  "inventoryIcon" : "cityfountainicon.png",
+  "orientations" : [
+    {
+      "image" : "cityfountain.png:<color>.<frame>",
+      "imagePosition" : [-18, 0],
+      "frames" : 5,
+      "animationCycle" : 0.4,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/fountain1.wav",
+  "soundEffectRadius" : 25
+
+}

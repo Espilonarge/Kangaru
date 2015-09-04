@@ -1,0 +1,30 @@
+{
+  "objectName" : "posterpouchmints",
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 100,
+  "description" : "For that after dinner minty taste!",
+  "shortdescription" : "Pouch Mints",
+  "race" : "kangaru",
+  
+  "apexDescription" : "These Kangaru sure know how to treat themselves well.",
+  "avianDescription" : "What a refreshing taste.",
+  "floranDescription" : "Want ssspearment..",
+  "glitchDescription" : "Query. Do they help with my coolent?",
+  "humanDescription" : "It's moments like these you need Pouch Mints.",
+  "hylotlDescription" : "I wonder if these will go well with mint tea.",
+  "kangaruDescription" : "A product that's endorsed by a famous artist.",
+  
+  "inventoryIcon" : "posterpouchmintsicon.png",
+  "orientations" : [
+    {
+      "image" : "posterpouchmints.png",
+      "imagePosition" : [-11, -13],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}
