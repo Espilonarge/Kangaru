@@ -1,0 +1,11 @@
+{
+	"type" : "kangaruweaponmerchant",
+	"baseType" : "merchant",
+	"scriptConfig" : {
+		"merchant" : {
+			"categories" : {
+				"kangaru" : [ "randomguns", "randomswords" ]
+			}
+		}
+	}
+}

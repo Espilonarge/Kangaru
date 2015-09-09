@@ -1,0 +1,9 @@
+{
+  "name" : "browncream",
+  "category" : "corgi",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "browncream.png"
+  }
+}

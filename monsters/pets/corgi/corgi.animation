@@ -13,7 +13,7 @@
           },
           "run" : {
             "frames" : 5,
-            "cycle" : 0.25,
+            "cycle" : 0.50,
             "mode" : "loop"
           },
           "blink" : {
@@ -36,17 +36,17 @@
           },
           "eat" : {
             "frames" : 3,
-            "cycle" : 0.375,
+            "cycle" : 0.4,
             "mode" : "transition",
             "transition" : "eatloop"
           },
           "eatloop" : {
-            "frames" : 2,
-            "cycle" : 0.25,
+            "frames" : 3,
+            "cycle" : 0.3,
             "mode" : "loop"
           },
           "inspect" : {
-            "frames" : 4,
+            "frames" : 2,
             "cycle" : 0.5
           },
           "swim" : {
@@ -473,6 +473,6 @@
   "sounds" : {
     "turnHostile" : [ ],
     "deathPuff" : [ "/sfx/npc/enemydeathpuff.wav" ],
-    "petsound" : []
+    "petsound" : [ "sfx/monster/corgibark.wav" ]
   }
 }

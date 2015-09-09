@@ -18,8 +18,36 @@
 							{ "name" : "generatedgun", "data" : { "definition" : "commonmachinepistol" } }
 						],
 						"sheathedprimary": [
-							{ "name" : "generatedsword", "data" : { "definition" : "commonshortsword" } }
+							{ "name" : "generatedsword", "data" : { "definition" : "commonbroadsword" } }
 						]
+					},
+					{
+						"chest": [
+							{ "name" : "kangarutier3chest", "data" : { "colorIndex" : 1 } }
+						],
+						"legs": [
+							{ "name" : "kangarutier3pants", "data" : { "colorIndex" : 1 } }
+						],
+						"primary": [
+							{ "name" : "generatedgun", "data" : { "definition" : "commonmachinepistol" } }
+						],
+						"sheathedprimary": [
+							{ "name" : "generatedsword", "data" : { "definition" : "commonshortsword" } }
+						],
+						"alt" : [
+						{ "name" : "generatedshield", "parameters" : { "definition" : "tier1shield" } }	
+						]
+					},
+					{
+						"chest": [
+							{ "name" : "kangarutier3chest", "data" : { "colorIndex" : 1 } }
+						],
+						"legs": [
+							{ "name" : "kangarutier3pants", "data" : { "colorIndex" : 1 } }
+						],
+						"primary": [
+							{ "name" : "generatedsword", "parameters" : { "definition" : "commonspear" } }
+						]	
 					}
 				]
 			]

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "imperviumcompound", "count" : 10 },
+    { "item" : "kangarutier5schest", "count" : 1 }
+  ],
+  "output" : { "item" : "kangarutier6schest", "count" : 1 },
+  "groups" : [ "separatortable", "armors", "all" ]
+}

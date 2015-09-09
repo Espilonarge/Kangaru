@@ -39,7 +39,7 @@
 		"path": "/gunwarning1/kangaru",
 		"value": {
 			"default": [
-				"Unless you want to be marked as an outlaw, best put that away",
+				"Unless you want to be marked as an outlaw, best put that away.",
 				"Are you really sure that's wise to have that out?",
 				"I can't let you have that out in the open, put it away 'ate.",
 				"Stash'et or get out!",
@@ -75,14 +75,9 @@
 		"path": "/swordwarning3/kangaru",
 		"value": {
 			"default": [
-				"You are sorely tempting me, friend.",
-				"Your weapon. Put it the f°ck away.",
-				"Final warning - drop the weapon."
-			],
-			"kangaru": [
-				"You are sorely tempting me, Hunter.",
-				"Your weapon, Hunter. Put it away. Now.",
-				"Final warning - drop the weapon."
+				"LAST WARNING! PUT IT AWAY!",
+				"Seriously, put it away!",
+				"You're about to force my hand kerwan!"
 			]
 		}
 	},
@@ -91,9 +86,10 @@
 		"path": "/gunwarning3/kangaru",
 		"value": {
 			"default": [
-				"If you don't holster your gun, I'll have to get rough.",
-				"I'm coming for you if you don't comply!",
-				"Don't make me come and take the gun and your LIFE!"
+				"LAST WARNING! PUT IT AWAY!",
+				"This is your last warning, put it away or I'll put it away for you!",
+				"I don't need to see a license, I need to see you're responsible! Last warning 'ate!",
+				"If that safety switch isn't turned back on and stowed away right now.."
 			]
 		}
 	},
@@ -107,6 +103,41 @@
 				"All's good.",
 				"You're good 'ate",
 				"Lets not try that again 'ate."
+			]
+		}
+	},
+		{
+		"op": "add",
+		"path": "/attack/kangaru",
+		"value": {
+			"default": [
+				"Time to make a name for myself!",
+				"Engaging target!",
+				"Time to die!",
+				"AAAHHHHHH!!!",
+				"Battle!",
+				"Time to earn myself a trophy!",
+				"Time for battle!",
+				"Target engaged!",
+				"Target locked on!",
+				"Attempting to take down target!",
+				"Time to earn myself a title!",
+				"You're going down!",
+				"Time to earn another notch in my quota!",
+				"ATTAAACCCKKK!!!",
+				"Proceeding to take down target.. engaged!",
+				"Prepare to meet your maker!",
+				"BATTLE!!!",
+				"STRIKE!",
+				"ATTACK!",
+				"Eliminating target.",
+				"Fly like a butterfly, strike like a kangaru!",
+				"Target has been engaged!",
+				"LETS ROOCCCKK!!!",
+				"You're going down, kerwan!",
+				"Line up my sights... STRIKE!!!",
+				"Game over... FOR YOU!",
+				"You're so going down!"
 			]
 		}
 	},

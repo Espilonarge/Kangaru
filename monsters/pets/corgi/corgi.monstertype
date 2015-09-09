@@ -5,7 +5,6 @@
   "parts" : [ "body" ],
 
   "animation" : "corgi.animation",
-  "colors" : "/monsters/colors.config",
 
   "dropPools" : [ ],
 
@@ -22,7 +21,6 @@
 
       "/monsters/pets/idleState.lua",
       "/monsters/pets/wanderState.lua",
-
       "/monsters/pets/petBehavior.lua",
       "/monsters/pets/actions/followAction.lua",
       "/monsters/pets/actions/inspectAction.lua",
@@ -33,9 +31,9 @@
       "/monsters/pets/actions/starvingAction.lua"
     ],
 
-    "behavior" : "petBehavior",
+    "petBehavior" : "petBehavior",
 
-    "anchorName" : "glitchtechstation",
+    "anchorName" : "kangarutechstation",
     "petResources" : {
       "sleepy" : 10,
       "hunger" : 60,
@@ -88,6 +86,10 @@
       }
     },
 
+
+	
+	
+	
     "pathing" : {
       "canOpenDoors" : false
     },
@@ -114,19 +116,13 @@
     },
 
     "movementSettings" : {
-      "collisionPoly" : [ [-0.75, -1], [0.75, -1], [0.75, 0.5], [-0.75, 0.5] ],
+      "collisionPoly" : [ [-0.75, -0.65], [-0.4, -1], [0.4, -1], [0.75, -0.65], [0.75, 0.15], [0.4, 0.5], [-0.4, 0.5], [-0.75, 0.15] ],
 
       "mass" : 1.0,
       "walkSpeed" : 4,
       "runSpeed" : 14,
       "flySpeed" : 15,
-      "airForce" : 50.0,
-      "airFriction" : 0.0,
-      "airJumpProfile": {
-        "jumpSpeed" : 45.0,
-        "jumpInitialPercentage": 1.0,
-        "jumpHoldTime": 0.0
-      }
+      "airForce" : 50.0
     },
 
     "bodyMaterialKind" : "organic",

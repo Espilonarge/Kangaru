@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "ceruliumcompound", "count" : 4 },
+    { "item" : "kangarutier5mpants", "count" : 1 }
+  ],
+  "output" : { "item" : "kangarutier6mpants", "count" : 1 },
+  "groups" : [ "manipulatortable", "armors", "all" ]
+}

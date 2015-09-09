@@ -1,7 +1,7 @@
 [
 	{ "op" : "add",
 		"path" : "/scriptConfig/merchant/categories/kangaru",
-		"value" : [ "randomguns", "randomswords", "kangaruclothes", "kangaruingredients" ]
+		"value" : [ "kangaruarmorblueprints", "randomguns", "randomswords", "kangaruclothes", "kangaruingredients" ]
 	},
 	{ "op" : "add",
 		"path" : "/items/kangaru",

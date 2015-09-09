@@ -1,8 +1,9 @@
 {
   "itemName" : "kangarustarter",
+  "price" : 100,
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
-  "level" : 0.5,
+  "level" : 1,
   "rarity" : "legendary",
   "description" : "A large chipped wooden boomarang. Seems this one won't come back if thrown.",
   "shortdescription" : "Chipped Boomarang",
@@ -11,7 +12,7 @@
 
   "image" : "kangarustarter.png",
   "firePosition" : [15.5, 4.5],
-  "fireTime" : 0.8,
+  "fireTime" : 0.83,
   "fireAfterWindup" : true,
   "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_twohanded.wav" } ] },
 
@@ -44,10 +45,10 @@
 
   "primaryStances" : {
     "directional" : false,
-    "projectileType" : "testswoosh3",
+    "projectileType" : "broadswordswoosh",
     "projectile" : {
       "speed" : 0.1,
-      "power" : 7.2
+      "power" : 6.5
     },
     "idle" : {
       "twoHanded" : false,
@@ -61,14 +62,14 @@
       "armAngle" : 90,
       "swordAngle" : 90,
       "handPosition" : [-6.0, -17.0],
-      "duration" : 0.2,
+      "duration" : 0.05,
       "statusEffects" : []
     },
     "cooldown" : {
       "twoHanded" : true,
       "armAngle" : -45,
       "swordAngle" : -90,
-      "handPosition" : [-6.0, -23.5],
+      "handPosition" : [-6.0, -27.5],
       "duration" : 0.4,
       "statusEffects" : []
     }

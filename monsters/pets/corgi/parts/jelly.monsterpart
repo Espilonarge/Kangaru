@@ -1,0 +1,9 @@
+{
+  "name" : "jelly",
+  "category" : "corgi",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "jelly.png"
+  }
+}

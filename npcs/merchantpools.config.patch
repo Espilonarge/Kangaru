@@ -1,5 +1,40 @@
 [
 	{ "op" : "add",
+	"path" : "/kangaruarmorblueprints",
+	"value" : [
+		[0, [
+			{ "item" : { "name" : "kangarutier1chest-recipe" }, "rarity" : 0.1 },
+			{ "item" : { "name" : "kangarutier1head-recipe" }, "rarity" : 0.1 },
+			{ "item" : { "name" : "kangarutier1pants-recipe" }, "rarity" : 0.1 }
+		]],
+		[2.9, [
+			{ "item" : { "name" : "kangarutier1chest-recipe" }, "rarity" : 0.1 },
+			{ "item" : { "name" : "kangarutier1head-recipe" }, "rarity" : 0.1 },
+			{ "item" : { "name" : "kangarutier1pants-recipe" }, "rarity" : 0.1 },
+			{ "item" : { "name" : "kangarutier3chest-recipe" }, "rarity" : 0.1 },
+			{ "item" : { "name" : "kangarutier3head-recipe" }, "rarity" : 0.1 },
+			{ "item" : { "name" : "kangarutier3pants-recipe" }, "rarity" : 0.1 }
+		]],
+		[4.9, [
+			{ "item" : { "name" : "kangarutier1chest-recipe" }, "rarity" : 0.1 },
+			{ "item" : { "name" : "kangarutier1head-recipe" }, "rarity" : 0.1 },
+			{ "item" : { "name" : "kangarutier1pants-recipe" }, "rarity" : 0.1 },
+			{ "item" : { "name" : "kangarutier3chest-recipe" }, "rarity" : 0.1 },
+			{ "item" : { "name" : "kangarutier3head-recipe" }, "rarity" : 0.1 },
+			{ "item" : { "name" : "kangarutier3pants-recipe" }, "rarity" : 0.1 },
+			{ "item" : { "name" : "kangarutier5achest-recipe" }, "rarity" : 0.1 },
+			{ "item" : { "name" : "kangarutier5ahead-recipe" }, "rarity" : 0.1 },
+			{ "item" : { "name" : "kangarutier5apants-recipe" }, "rarity" : 0.1 },
+			{ "item" : { "name" : "kangarutier5mchest-recipe" }, "rarity" : 0.1 },
+			{ "item" : { "name" : "kangarutier5mhead-recipe" }, "rarity" : 0.1 },
+			{ "item" : { "name" : "kangarutier5mpants-recipe" }, "rarity" : 0.1 },
+			{ "item" : { "name" : "kangarutier5schest-recipe" }, "rarity" : 0.1 },
+			{ "item" : { "name" : "kangarutier5shead-recipe" }, "rarity" : 0.1 },
+			{ "item" : { "name" : "kangarutier5spants-recipe" }, "rarity" : 0.1 }
+		] ]
+	]
+},
+	{ "op" : "add",
 	"path" : "/kangaruclothes",
 	"value" : [
 		[ 0, [

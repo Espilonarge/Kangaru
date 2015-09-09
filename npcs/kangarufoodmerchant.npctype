@@ -1,0 +1,12 @@
+{
+	"type" : "kangarufoodmerchant",
+	"baseType" : "merchant",
+	"scriptConfig" : {
+		"merchant" : {
+			"categories" : {
+				"default" : [ "humaningredients" ],
+				"kangaru" : [ "kangaruingredients" ]
+			}
+		}
+	}
+}

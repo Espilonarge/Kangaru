@@ -1,0 +1,53 @@
+{
+	"type" : "kangaruclothesmerchant",
+	"baseType" : "merchant",
+
+	"scriptConfig" : {
+    "merchant" : {
+      "waitTime" : 10,
+      "storeRadius" : -1,
+      "categories" : {
+		"kangaru" : ["kangaruarmorblueprints", "kangaruclothes" ]
+      },
+      "buyFactorRange" : [ 1.0, 1.0 ],
+      "sellFactorRange" : [ 0.2, 0.2 ],
+      "numItems" : 7,
+      "paneLayoutOverride" : {
+        "windowtitle" : {
+          "title" : "  Kangaru Armor and Clothier",
+          "subtitle" : "  Sells protective gear and clothing!"
+        }
+      }
+    },
+	
+	"dialog" : {
+      "merchant" : {
+        "start" : {
+          "default" : {
+            "default" : [
+				"Test hello!"
+            ]
+          }
+        },
+        "end" : {
+          "default" : {
+            "default" : [
+				"Test goodbye!"
+            ]
+          }
+        }
+      }
+    }
+  },
+  
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "chest" : [ "chefchest" ],
+            "legs" : [ "cheflegs" ]
+          }
+        ] ]
+    ]
+  }
+}  

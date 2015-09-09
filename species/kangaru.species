@@ -22,7 +22,9 @@
       { "item" : "rescuerchest" },
       { "item" : "rescuerhead" },
       { "item" : "cameruchest" },
+	  
 	  { "item" : "kangarustoragelocker" },
+
       { "item" : "flagkangaru" },
 
       { "item" : "aviantier2hammer" },
@@ -31,14 +33,17 @@
       { "item" : "aviantier2spear" },
       { "item" : "aviantier2axe" },
       { "item" : "aviantier2dagger" },
-      { "item" : "kangarutier2head" },
-      { "item" : "kangarutier2chest" },
-      { "item" : "kangarutier2pants" },
-      { "item" : "spawnerkangaru" },
+      //{ "item" : "kangarutier2head" },
+      //{ "item" : "kangarutier2chest" },
+      //{ "item" : "kangarutier2pants" },
 
       { "item" : "kangarutier3head" },
       { "item" : "kangarutier3chest" },
       { "item" : "kangarutier3pants" },
+
+
+
+
       { "item" : "aviantier3hammer" },
       { "item" : "aviantier3shortsword" },
       { "item" : "aviantier3broadsword" },
@@ -46,9 +51,12 @@
       { "item" : "aviantier3axe" },
       { "item" : "aviantier3dagger" },
 
+
       // { "item" : "kangarutier4head" },
       // { "item" : "kangarutier4chest" },
       // { "item" : "kangarutier4pants" },
+
+
 	  { "item" : "aviantier4hammer" },
       { "item" : "aviantier4shortsword" },
       { "item" : "aviantier4broadsword" },
@@ -56,18 +64,18 @@
       { "item" : "aviantier4axe" },
       { "item" : "aviantier4dagger" },
 
-      { "item" : "aviantier5ahead" },
-      { "item" : "aviantier5achest" },
-      { "item" : "aviantier5apants" },
+      { "item" : "kangarutier5ahead" },
+      { "item" : "kangarutier5achest" },
+      { "item" : "kangarutier5apants" },
       { "item" : "aviantier5dagger" },
 
-      { "item" : "aviantier5mhead" },
-      { "item" : "aviantier5mchest" },
-      { "item" : "aviantier5mpants" },
+      { "item" : "kangarutier5mhead" },
+      { "item" : "kangarutier5mchest" },
+      { "item" : "kangarutier5mpants" },
 
-      { "item" : "aviantier5shead" },
-      { "item" : "aviantier5schest" },
-      { "item" : "aviantier5spants" },
+      { "item" : "kangarutier5shead" },
+      { "item" : "kangarutier5schest" },
+      { "item" : "kangarutier5spants" },
       { "item" : "aviantier8hammer" },
       { "item" : "aviantier8shortsword" },
       { "item" : "aviantier8broadsword" },
@@ -75,18 +83,18 @@
       { "item" : "aviantier8axe" },
       { "item" : "aviantier8dagger" },
 
-      // { "item" : "aviantier6ahead" },
-      // { "item" : "aviantier6achest" },
-      // { "item" : "aviantier6apants" },
+      // { "item" : "kangarutier6ahead" },
+      // { "item" : "kangarutier6achest" },
+      // { "item" : "kangarutier6apants" },
       { "item" : "aviantier6dagger" },
 
-      // { "item" : "aviantier6mhead" },
-      // { "item" : "aviantier6mchest" },
-      // { "item" : "aviantier6mpants" },
+      // { "item" : "kangarutier6mhead" },
+      // { "item" : "kangarutier6mchest" },
+      // { "item" : "kangarutier6mpants" },
 
-      // { "item" : "aviantier6shead" },
-      // { "item" : "aviantier6schest" },
-      // { "item" : "aviantier6spants" },
+      // { "item" : "kangarutier6shead" },
+      // { "item" : "kangarutier6schest" },
+      // { "item" : "kangarutier6spants" },
       { "item" : "aviantier10hammer" },
       { "item" : "aviantier10shortsword" },
       { "item" : "aviantier10broadsword" },
